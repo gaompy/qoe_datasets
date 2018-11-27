@@ -12,7 +12,9 @@ CURR_PWD=$(pwd)
 
 # Para cada directorio de conjunto de datos hacer 10 corridas de 10-CV
 for i in `seq 1 7`; do
+	# Aleatoriedad de los subconjuntos para CV
 	for CV_SEED in `seq 1 10`; do
+		# Conjunto de datos a analizar
 		for DATASET in data data_filled_r data_filled_weka; do
 			mkdir -p $CURR_PWD/results/$i
 			OUTPUT_DIR=$CURR_PWD/results/$i
