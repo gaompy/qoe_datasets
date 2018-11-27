@@ -46,3 +46,6 @@ Los archivos ARFF son las fuentes de datos de entrada para los algoritmos de Mac
 Los archivos ARFF se generaron mediante el visor de archivos ARFF de WEKA (Tools -> ArffViewer), seleccionando la columna "mos" como atributo de clase y eliminando columnas que no son representativas para el estudio (columnas del CouchDB e identificadores de timestamp de la Aplicación Móvil: "X_id", "X_rev", "ts_from", "ts_to").
 
 El archivo `data_filled_weka.arff` se generó corriendo el filtro `weka.filters.unsupervised.attribute.ReplaceMissingValues` sobre el archivo `data.arff`.
+
+#### Configuración de las pruebas con WEKA
+
