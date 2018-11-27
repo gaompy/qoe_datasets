@@ -17,6 +17,18 @@ for i in `seq 1 7`; do
 			mkdir -p $CURR_PWD/results/$i
 			OUTPUT_DIR=$CURR_PWD/results/$i
 
+			# Redes Neuronales
+			## MultilayerPerceptron
+			## RBFNetwork
+			## RBFClassifier
+
+			# Basados en modelos de regresión
+			## SimpleLogistic
+			## Logistic
+
+			# Máquinas de soporte vectorial
+			## Sequential Minial Optimization (SMO)
+
 			# Clasificadores Bayesianos
 			## RandomForest
 			OUTPUT_FILE=$OUTPUT_DIR/RandomForest_$DATASET_$CV_SEED.txt
@@ -24,13 +36,23 @@ for i in `seq 1 7`; do
 			## Naive Bayes
 			OUTPUT_FILE=$OUTPUT_DIR/NaiveBayes_$DATASET_$CV_SEED.txt
 			java weka.classifiers.bayes.NaiveBayes -s $CV_SEED -t $CURR_PWD/$i/$DATASET.arff > $OUTPUT_FILE
+			## A1DE
+			## A2DE
+			## BayesNet
 
 			# Árboles de decisión
 			## RandomTree
 			OUTPUT_FILE=$OUTPUT_DIR/RandomTree_$DATASET_$CV_SEED.txt
 			java weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -s $CV_SEED -t $CURR_PWD/$i/$DATASET.arff > $OUTPUT_FILE
+			## REPTree
+			## J4S
 
-			# Otros...
+			# Clasificadores basados en instancias
+			## IBk (k=1, k=5, k=10)
+
+			# Tablas de decisiones
+			## Decision Table
+			## DTNB
 		done
 	done
 done
