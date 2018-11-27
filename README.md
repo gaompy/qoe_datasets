@@ -50,3 +50,29 @@ El archivo `data_filled_weka.arff` se generó corriendo el filtro `weka.filters.
 #### Configuración de las pruebas con WEKA
 
 La configuración específica para cada clasificador se encuentra en el archivo script_test.sh.
+Se eligió el mismo conjunto de algoritmos que el utilizado en el trabajo de referencia de modo a hacer una comparación más justa de la aplicabilidad del modelo en un ambiente con otro conjunto de métricas.
+A continuación los algoritmos separados por grupos:
+##### Redes Neuronales:
+- MultilayerPerceptron
+- RBFNetwork
+- RBFClassifier
+##### Basados en modelos de regresión
+- SimpleLogistic
+- Logistic
+##### Máquinas de soporte vectorial
+- Sequential Minial Optimization (SMO)
+##### Clasificadores Bayesianos
+- Naive Bayes
+- A1DE
+- A2DE
+- BayesNet
+- RandomForest
+##### Árboles de decisión
+- REPTree
+- J4S
+- RandomTree
+##### Clasificadores basados en instancias
+- IBk (k=1, k=5, k=10)
+##### Tablas de decisiones
+- Decision Table
+- DTNB
