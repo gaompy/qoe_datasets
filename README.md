@@ -51,6 +51,7 @@ El archivo `data_filled_weka.arff` se generó corriendo el filtro `weka.filters.
 
 La configuración específica para cada clasificador se encuentra en el archivo script_test.sh.
 Se eligió el mismo conjunto de algoritmos que el utilizado en el trabajo de referencia de modo a hacer una comparación más justa de la aplicabilidad del modelo en un ambiente con otro conjunto de métricas.
+
 A continuación los algoritmos separados por grupos:
 ##### Redes Neuronales:
 - MultilayerPerceptron
@@ -76,3 +77,5 @@ A continuación los algoritmos separados por grupos:
 ##### Tablas de decisiones
 - Decision Table
 - DTNB
+
+Una vez que se cuente con los resultados, se sacarán estadísticas de cada grupo, de modo a determinar qué grupo tuvo mejor rendimiento para el conjunto de datos disponible.
