@@ -4,7 +4,7 @@
 
 ```sh
 $ ls *
-file.csv  fill_data_with_r.R  README.md
+file.csv  fill_data_with_r.R  README.md  script_test.sh
 
 1:
 README.md  data.arff  data.csv  data_filled_r.arff  data_filled_r.csv  data_filled_weka.arff
@@ -49,3 +49,4 @@ El archivo `data_filled_weka.arff` se generó corriendo el filtro `weka.filters.
 
 #### Configuración de las pruebas con WEKA
 
+La configuración específica para cada clasificador se encuentra en el archivo script_test.sh.
