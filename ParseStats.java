@@ -28,30 +28,16 @@ import java.util.Arrays;
 import java.util.stream.*;
 
 public class ParseStats {
-    /**
-    * initializes the demo
-    */
     public ParseStats() {
         super();
     }
-    /** the classifier used internally */
+
     protected Classifier m_Classifier = null;
-  
-    /** the training file */
     protected String m_TrainingFile = null;
-
-    /** the training instances */
     protected Instances m_Training = null;
-
-    /** for evaluating the classifier */
     protected Evaluation m_Evaluation = null;
-
-    /** for evaluating the classifier */
     protected Integer key_fold = null;
 
-    /**
-     * sets the file to use for training
-     */
     public void setTraining(String name) throws Exception {
         m_TrainingFile = name;
         m_Training     = new Instances(
@@ -60,9 +46,6 @@ public class ParseStats {
 
     }
 
-    /**
-     * runs 10fold CV over the training file
-     */
     public Evaluation execute() throws Exception {
         // train classifier on complete file for tree
         m_Classifier.buildClassifier(m_Training);
@@ -75,18 +58,10 @@ public class ParseStats {
         return m_Evaluation;
     }
 
-    /**
-     * Helper
-     * @param args
-     * @throws Exception
-     */
     public static Double promediarArray(Double[] array) {
         return Arrays.stream(array).mapToDouble(Double::doubleValue).sum() / array.length;
     }
 
-    /**
-     * runs the program
-     */
     public static void main(String[] args) throws Exception {
         ParseStats parseStats= new ParseStats();
         // Conjunto de datos a analizar
@@ -100,8 +75,7 @@ public class ParseStats {
             // Aleatoriedad de los subconjuntos para correr el 10-CV
             for (parseStats.key_fold = 1; parseStats.key_fold < 11; parseStats.key_fold++){
                 // Instanciamo un clasificador
-                MultilayerPerceptron algorithm = new MultilayerPerceptron();
-                parseStats.m_Classifier = algorithm;
+                parseStats.m_Classifier = new MultilayerPerceptron();
                 // Corremos el algoritmo
                 eval = parseStats.execute();
 
