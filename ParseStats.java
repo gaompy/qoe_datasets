@@ -62,30 +62,61 @@ public class ParseStats {
         return Arrays.stream(array).mapToDouble(Double::doubleValue).sum() / array.length;
     }
 
-    public static void main(String[] args) throws Exception {
-        ParseStats parseStats= new ParseStats();
-        // Conjunto de datos a analizar
-        String dataset = "/home/gosorio/Projects/qoe_datasets/1/data_filled_r.arff";
-        parseStats.setTraining(dataset);
+    String[] datasets = new String[]{
+        "/home/gosorio/Projects/qoe_datasets/1/data_filled_r.arff",
+        "/home/gosorio/Projects/qoe_datasets/1/data_filled_weka.arff"
+    };
 
+    public static void main(String[] args) throws Exception {
         Evaluation eval;
 
-        // Para cada clasificador
-        for (int i=0; i < 1; i++){
-            // Aleatoriedad de los subconjuntos para correr el 10-CV
-            for (parseStats.key_fold = 1; parseStats.key_fold < 11; parseStats.key_fold++){
-                // Instanciamo un clasificador
-                parseStats.m_Classifier = new MultilayerPerceptron();
-                // Corremos el algoritmo
-                eval = parseStats.execute();
+        Classifier[] algoritmos = new Classifier[]{
+            new MultilayerPerceptron(),
+            new RBFNetwork(),
+            new RBFClassifier(),
+            new SimpleLogistic(),
+            new Logistic(),
+            new SMO(),
+            new RandomForest(),
+            new NaiveBayes(),
+            new A1DE(),
+            new A2DE(),
+            new BayesNet(),
+            new RandomTree(),
+            new REPTree(),
+            new J48(),
+            new IBk(1),
+            new IBk(5),
+            new IBk(10),
+            new DecisionTable()
+        };
 
-                // Sección de promedios para cada corrida de 10-CV
-                // Test
-                Double[] array = new Double[]{0.559322033898305,0.4915254237288136,0.5084745762711864};
-                System.out.println("Promedio de array con stream: " + promediarArray(array));
-                
-                System.out.println(parseStats.toString());
+        // Para cada dataset
+        for (int j=0; j < datasets.length; j++){
+            ParseStats parseStats = new ParseStats();
+            
+            // Conjunto de datos a analizar
+            parseStats.setTraining(datasets[j]);
+
+            // Para cada clasificador
+            for (int i=0; i < algoritmos.length; i++){
+                // Aleatoriedad de los subconjuntos para correr el 10-CV
+                for (parseStats.key_fold = 1; parseStats.key_fold < 11; parseStats.key_fold++){
+                    // Selección de algoritmo clasificador
+                    parseStats.m_Classifier = algoritmos[i];
+                    // Corremos el algoritmo
+                    eval = parseStats.execute();
+                    // Sección de promedios para cada corrida de 10-CV
+                }
             }
         }
     }
 }
+
+/**
+// Test
+                    Double[] array = new Double[]{0.559322033898305,0.4915254237288136,0.5084745762711864};
+                    System.out.println("Promedio de array con stream: " + promediarArray(array));
+                    
+                    System.out.println(parseStats.toString());
+ */
