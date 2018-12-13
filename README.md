@@ -95,3 +95,6 @@ A continuación los algoritmos separados por grupos:
 - DTNB
 
 Una vez que se cuente con los resultados, se sacarán estadísticas de cada grupo, de modo a determinar qué grupo tuvo mejor rendimiento para el conjunto de datos disponible.
+
+Desde el archivo `order_by_mean_mendev.py` se ordenan los resultados de acuerdo a las columnas `kappa`, `weightedFMeasure`, `pctCorrect`, o las que el usuario defina en el parámetro correspondiente.
+Debido a la distribución sesgada de las métricas clasificadas, se deberá considerar columnas como `weightedAreaUnderPRC` y `weightedAreaUnderROC`.
