@@ -4,7 +4,7 @@
 
 ```sh
 $ ls *
-file.csv  fill_data_with_r.R  README.md  script_test.sh
+file.csv  fill_data_with_r.R  ParseStats.java  ParseStatsMultiThread.java results  README.md  script_test.sh
 
 1:
 README.md  data.arff  data.csv  data_filled_r.arff  data_filled_r.csv  data_filled_weka.arff
@@ -47,10 +47,26 @@ Los archivos ARFF se generaron mediante el visor de archivos ARFF de WEKA (Tools
 
 El archivo `data_filled_weka.arff` se generó corriendo el filtro `weka.filters.unsupervised.attribute.ReplaceMissingValues` sobre el archivo `data.arff`.
 
+Los archivos `ParseStats.java` y `ParseStatsMultiThread.java` son versiones iterativas y multi-hilos para generar archivos `.csv` de estadísticas corriendo los algoritmos de clasificación.
+
+Dentro del directorio `results` se almacenarán las estadísticas en CSV para ser analizadas y determinar qué grupo de algoritmos tuvo el mejor rendiemiento.
+
 #### Configuración de las pruebas con WEKA
 
 La configuración específica para cada clasificador se encuentra en el archivo script_test.sh.
 Se eligió el mismo conjunto de algoritmos que el utilizado en el trabajo de referencia de modo a hacer una comparación más justa de la aplicabilidad del modelo en un ambiente con otro conjunto de métricas.
+
+```sh
+java weka.core.WekaPackageManager -install-package RBFNetwork
+java weka.core.WekaPackageManager -install-package AnalogicalModeling
+java weka.core.WekaPackageManager -install-package IBkLG
+java weka.core.WekaPackageManager -install-package multiLayerPerceptrons
+java weka.core.WekaPackageManager -install-package CFWNB
+java weka.core.WekaPackageManager -install-package bestFirstTree
+java weka.core.WekaPackageManager -install-package DTNB
+```
+
+Los comandos anteriores instalan los paquetes de Weka en el directorio `~/wekafiles/packages/`. Se deben agregar al CLASSPATH los archivos `.jar` correspondientes.
 
 A continuación los algoritmos separados por grupos:
 ##### Redes Neuronales:
