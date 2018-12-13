@@ -119,19 +119,34 @@ with open(DIRDATA + outputFileNames[0], 'w') as csvfile:
     wr = csv.writer(csvfile, delimiter=',',
                             quotechar='"', quoting=csv.QUOTE_NONNUMERIC)
     wr.writerow(['metrica','algoritmo','media','desviacion_media'])
+    curr_list = algoritmos
     for metrica in columnsToAnalyze:
-        for algoritmo in orden_rendimiento_algoritmos_r[metrica]:
+        lista_algoritmos = orden_rendimiento_algoritmos_r[metrica]
+        new_list = lista_algoritmos[:7]
+        curr_list = list(set(curr_list) & set(new_list))
+        for algoritmo in lista_algoritmos:
             avg = df_r_avg[metrica][algoritmo]
             mad = df_r_mad[metrica][algoritmo]
             wr.writerow([metrica, algoritmo, avg, mad])
+    # Armamos la lista de los algoritmos presentes en la mayoría de los top 7 R
+    print('Mejores rendimientos globales de algoritmos en datos R',curr_list)
+            
 
 # Resultados para WEKA
 with open(DIRDATA + outputFileNames[1], 'w') as csvfile:
     wr = csv.writer(csvfile, delimiter=',',
                             quotechar='"', quoting=csv.QUOTE_NONNUMERIC)
     wr.writerow(['metrica','algoritmo','media','desviacion_media'])
+    curr_list = algoritmos
     for metrica in columnsToAnalyze:
-        for algoritmo in orden_rendimiento_algoritmos_weka[metrica]:
+        lista_algoritmos = orden_rendimiento_algoritmos_weka[metrica]
+        new_list = lista_algoritmos[:7]
+        curr_list = list(set(curr_list) & set(new_list))
+        for algoritmo in lista_algoritmos:
             avg = df_weka_avg[metrica][algoritmo]
             mad = df_weka_mad[metrica][algoritmo]
             wr.writerow([metrica, algoritmo, avg, mad])
+    # Armamos la lista de los algoritmos presentes en la mayoría de los top 7 WEKA
+    print('Mejores rendimientos globales de algoritmos en datos WEKA',curr_list)
+
+# Seleccionar 
