@@ -1,0 +1,108 @@
+
+Options: -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5 
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=21 #classindex=20
+Network structure (nodes followed by parents)
+alejado(1): mos 
+battery_l(1): mos 
+battery_t(2): mos 
+bw(1): mos 
+devid(59): mos 
+df_delay(1): mos 
+df_saltos(1): mos 
+ds(2): mos 
+dv_delay(1): mos 
+dv_saltos(1): mos 
+indice_en_prueba(1): mos 
+indice_intervalo(1): mos 
+mood(1): mos 
+ns(2): mos 
+prueba_nro(1): mos 
+ram(1): mos 
+sdk(2): mos 
+st(1): mos 
+t_cpu(4): mos 
+app_foreground(55): mos 
+mos(5): 
+LogScore Bayes: -9034.870577410702
+LogScore BDeu: -12658.959175272681
+LogScore MDL: -11872.50620993166
+LogScore ENTROPY: -9825.368426380544
+LogScore AIC: -10424.368426380544
+
+
+Time taken to build model: 0.34 seconds
+
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         585               62.9032 %
+Incorrectly Classified Instances       345               37.0968 %
+Kappa statistic                          0.4677
+Mean absolute error                      0.1979
+Root mean squared error                  0.3177
+Relative absolute error                 69.4532 %
+Root relative squared error             84.1807 %
+Total Number of Instances              930     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.473    0.037    0.587      0.473    0.524      0.480    0.862     0.521     1
+                 0.310    0.040    0.433      0.310    0.361      0.314    0.845     0.354     2
+                 0.356    0.083    0.421      0.356    0.386      0.293    0.787     0.402     3
+                 0.573    0.159    0.496      0.573    0.531      0.394    0.819     0.571     4
+                 0.842    0.192    0.783      0.842    0.811      0.648    0.890     0.867     5
+Weighted Avg.    0.629    0.140    0.618      0.629    0.620      0.495    0.853     0.655     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+  44   7  14  13  15 |   a = 1
+  15  26  11  20  12 |   b = 2
+  10  17  48  37  23 |   c = 3
+   3   8  26 114  48 |   d = 4
+   3   2  15  46 353 |   e = 5
+
+Time taken to perform cross-validation: 0.19 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         520               55.914  %
+Incorrectly Classified Instances       410               44.086  %
+Kappa statistic                          0.3619
+Mean absolute error                      0.219 
+Root mean squared error                  0.3443
+Relative absolute error                 76.8246 %
+Root relative squared error             91.2337 %
+Total Number of Instances              930     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.441    0.045    0.519      0.441    0.477      0.426    0.803     0.413     1
+                 0.238    0.047    0.333      0.238    0.278      0.223    0.711     0.203     2
+                 0.230    0.077    0.337      0.230    0.273      0.180    0.675     0.284     3
+                 0.462    0.187    0.402      0.462    0.430      0.262    0.737     0.464     4
+                 0.802    0.262    0.715      0.802    0.756      0.537    0.836     0.810     5
+Weighted Avg.    0.559    0.178    0.539      0.559    0.545      0.387    0.777     0.565     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+  41   8  12  13  19 |   a = 1
+  17  20  13  20  14 |   b = 2
+  12  18  31  41  33 |   c = 3
+   4  11  24  92  68 |   d = 4
+   5   3  12  63 336 |   e = 5
+

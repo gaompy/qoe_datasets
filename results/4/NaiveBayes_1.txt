@@ -1,0 +1,310 @@
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                                                   Class
+Attribute                                              1            2            3            4            5
+                                                   (0.1)       (0.09)       (0.15)       (0.21)       (0.45)
+=============================================================================================================
+alejado
+  mean                                        619117.0608  291156.3057  707767.5318 1611658.3965 1517824.0506
+  std. dev.                                  2981215.6516  218316.8991 2769864.5734 4777965.0549 6251417.9927
+  weight sum                                           93           84          135          199          419
+  precision                                    41452.7622   41452.7622   41452.7622   41452.7622   41452.7622
+
+battery_l
+  mean                                            56.0698      58.0157      66.2057      64.4564      56.9387
+  std. dev.                                       16.9095      18.6246      20.4772       20.871       21.716
+  weight sum                                           93           84          135          199          419
+  precision                                        0.4567       0.4567       0.4567       0.4567       0.4567
+
+battery_t
+  mean                                            33.4197      32.6325       32.281      32.2956      32.6836
+  std. dev.                                        3.3879       2.8926       4.2618       4.5622       5.0733
+  weight sum                                           93           84          135          199          419
+  precision                                        0.0872       0.0872       0.0872       0.0872       0.0872
+
+bw
+  mean                                       4530094.1327 7843577.7006 4909672.5887 2905850.4694 4214299.0472
+  std. dev.                                 16239836.165829850290.336616829481.771511984663.554114229266.5612
+  weight sum                                           93           84          135          199          419
+  precision                                   281805.1868  281805.1868  281805.1868  281805.1868  281805.1868
+
+devid
+  63958117e9438e16                                    2.0          2.0          3.0          5.0          2.0
+  2440f9791015c9aa                                    1.0          1.0          1.0          1.0          8.0
+  c8afba09e53d8531                                    2.0          1.0          1.0          1.0         11.0
+  90a72847e24050d1                                    1.0          1.0          1.0          1.0          2.0
+  22dee25d96b05f3e                                    1.0          1.0          1.0          1.0         16.0
+  68af49bcc059f325                                    1.0          3.0          2.0          1.0          1.0
+  8e16d706819d2e0c                                   10.0         13.0         14.0         24.0         23.0
+  7bf44203a040cdc1                                    1.0          1.0          2.0          4.0          5.0
+  acf1f4860469c6fd                                    1.0          1.0          1.0          1.0          2.0
+  94693d24cc813c3f                                    1.0          1.0          2.0          1.0          1.0
+  21499054c7994fc4                                    1.0          1.0          1.0          1.0          4.0
+  7b3d12955096c795                                    1.0          1.0          3.0          9.0         10.0
+  e2f3a59016564a22                                    3.0          2.0          3.0          2.0          2.0
+  da864a689e433b5e                                    1.0          2.0          3.0          2.0         17.0
+  751666ecdd98bfd3                                    2.0          1.0          1.0          1.0          1.0
+  c4a9b97bec0deec7                                    1.0          1.0          1.0          1.0          7.0
+  ffdd93d674719bbc                                    9.0          4.0         11.0          9.0          4.0
+  11d70c1436d1ce27                                    1.0          1.0          1.0          1.0          6.0
+  4261a8320ddd09d0                                    1.0          1.0          1.0          1.0          3.0
+  2e9b9b3b97476bf5                                    1.0          1.0          3.0          2.0          1.0
+  1d966fc8f0e98430                                    6.0          1.0          3.0          2.0         20.0
+  9f174fc0bd3480a6                                    1.0          1.0          1.0          2.0          3.0
+  d88a327ce250630                                     7.0          7.0          2.0         12.0         44.0
+  9c19bb5d04be923e                                   10.0          4.0          7.0          8.0         14.0
+  790c227141314780                                    1.0          1.0          2.0         19.0          6.0
+  bbe3002f6e378eed                                    1.0          3.0          1.0         11.0          1.0
+  e64bbee157aededc                                    1.0          1.0          3.0         11.0          1.0
+  4192432e1cf42d52                                    1.0          1.0          1.0          1.0          2.0
+  6e85b338913ae764                                    1.0          1.0          1.0          1.0         21.0
+  d554e3b29fe24a3b                                    1.0          2.0          2.0          2.0          8.0
+  c35c6393398f7068                                    1.0          1.0          1.0          1.0          3.0
+  4c3dfa2cea50e9bb                                    5.0         14.0          9.0          7.0          2.0
+  332d672c51091609                                    1.0          1.0          1.0          8.0          5.0
+  61d848e7503b5852                                    3.0          5.0          8.0          8.0          6.0
+  867fe59be043d779                                    1.0          1.0          2.0          1.0         10.0
+  a1f8f29e35209a42                                    1.0          1.0          1.0          1.0          5.0
+  4504da30b01769b7                                    1.0          2.0          4.0          6.0          5.0
+  7e4cfd066dafa944                                    1.0          1.0          1.0          2.0          3.0
+  9de8b4b98c575ea5                                    1.0          3.0         15.0          6.0          4.0
+  5a92d851bc704d                                      1.0          1.0          1.0          1.0         14.0
+  a6fb86ca165ca918                                    6.0          2.0          4.0          3.0          5.0
+  65e49509039eb913                                    1.0          4.0          3.0          2.0          1.0
+  247e4508ec4521f9                                    1.0          1.0          3.0          9.0         14.0
+  6c3fa7f635a073f5                                    1.0          1.0          3.0          3.0          2.0
+  7caeb732fb3ad6af                                    1.0          1.0          2.0         11.0         18.0
+  344404a75543aaf0                                    2.0          1.0          7.0         20.0         48.0
+  0264ea70c8976793                                    3.0          3.0          5.0          4.0         26.0
+  3c66f51dbc94d163                                    1.0          3.0          5.0          1.0          1.0
+  dcceb1b848daf324                                    1.0          1.0          2.0          1.0          1.0
+  6f2a6c95c065c7a3                                    8.0          4.0          2.0          1.0          1.0
+  f25d48f8931ef23f                                    8.0          8.0          6.0          4.0          2.0
+  c43e0a23ab297d87                                   21.0         11.0         11.0          3.0          1.0
+  bd016d8f3093b6a4                                    1.0          1.0          1.0          2.0         11.0
+  867287031950897                                     3.0          2.0          6.0          6.0          3.0
+  a32d3af596578938                                    1.0          1.0          6.0          1.0         21.0
+  81410329db99223d                                    1.0          1.0          1.0          1.0         14.0
+  2f41118c2aee66ae                                    1.0          1.0          1.0          3.0          3.0
+  a208a7c4a26d8df7                                    1.0          2.0          1.0          1.0          1.0
+  d71847dfd6b46fcd                                    2.0          3.0          3.0          3.0          2.0
+  [total]                                           152.0        143.0        194.0        258.0        478.0
+
+df_delay
+  mean                                            161.623     179.7094     236.9273     190.8613     179.4439
+  std. dev.                                      232.8217     279.2959     522.1296     335.0883       239.87
+  weight sum                                           93           84          135          199          419
+  precision                                        8.0811       8.0811       8.0811       8.0811       8.0811
+
+df_saltos
+  mean                                             1.6554       1.5915       1.6777       1.5133       1.6276
+  std. dev.                                        0.4877        0.486       0.5223       0.4887       0.5618
+  weight sum                                           93           84          135          199          419
+  precision                                        0.3556       0.3556       0.3556       0.3556       0.3556
+
+ds
+  mean                                             6.4073       6.4375       6.7343       6.2481        6.361
+  std. dev.                                        1.9677       1.9596       1.7248       1.7078       1.5056
+  weight sum                                           93           84          135          199          419
+  precision                                         0.875        0.875        0.875        0.875        0.875
+
+dv_delay
+  mean                                            98.2954      78.1725     133.0283      96.7302      87.1691
+  std. dev.                                      156.2847     125.1976      290.404     202.9987     103.5542
+  weight sum                                           93           84          135          199          419
+  precision                                        6.0023       6.0023       6.0023       6.0023       6.0023
+
+dv_saltos
+  mean                                            11.0351      10.6587      11.1998         11.7      11.4628
+  std. dev.                                         3.167       2.7446       3.4013       3.3792       3.6437
+  weight sum                                           93           84          135          199          419
+  precision                                        0.7315       0.7315       0.7315       0.7315       0.7315
+
+indice_en_prueba
+  mean                                             6.1727        6.026       4.2523       4.9216       5.6816
+  std. dev.                                        4.2963       3.5379       3.3694       3.5225       5.3773
+  weight sum                                           93           84          135          199          419
+  precision                                        0.9697       0.9697       0.9697       0.9697       0.9697
+
+indice_intervalo
+  mean                                            17.9892      18.5357      14.0963      17.1759      16.0191
+  std. dev.                                       17.2237      17.1301       15.816      17.0454       17.124
+  weight sum                                           93           84          135          199          419
+  precision                                             1            1            1            1            1
+
+mood
+  mean                                             4.1171       4.0026       3.8502       3.9408       4.0923
+  std. dev.                                        0.5138       0.4207       0.6657       0.4832       0.4744
+  weight sum                                           93           84          135          199          419
+  precision                                        0.2222       0.2222       0.2222       0.2222       0.2222
+
+ns
+  mean                                             3.6522       3.7349       3.7034       3.6664       3.6959
+  std. dev.                                        0.4455       0.2872       0.3022       0.3395       0.3327
+  weight sum                                           93           84          135          199          419
+  precision                                        0.0385       0.0385       0.0385       0.0385       0.0385
+
+prueba_nro
+  mean                                             4.2251       4.1778        3.042       2.9173       3.2522
+  std. dev.                                        3.5786          4.1       3.1625       3.1102       3.1228
+  weight sum                                           93           84          135          199          419
+  precision                                        0.9333       0.9333       0.9333       0.9333       0.9333
+
+ram
+  mean                                           792.6241     851.1651     935.8336     763.3033     877.7409
+  std. dev.                                      519.3541     518.3407     660.8802     528.8132     689.7422
+  weight sum                                           93           84          135          199          419
+  precision                                        5.2766       5.2766       5.2766       5.2766       5.2766
+
+sdk
+  mean                                            24.4147      24.4388      24.4952      23.9698      23.8957
+  std. dev.                                        1.2795       1.3713       1.4511       1.3759       1.3664
+  weight sum                                           93           84          135          199          419
+  precision                                        0.8571       0.8571       0.8571       0.8571       0.8571
+
+st
+  mean                                             3.0605       2.9263       3.0889       3.1705       2.9794
+  std. dev.                                        0.6367       0.6117        0.611        0.601       0.5089
+  weight sum                                           93           84          135          199          419
+  precision                                        0.1875       0.1875       0.1875       0.1875       0.1875
+
+t_cpu
+  mean                                            28.7161      31.3647      33.8897        38.47      41.7112
+  std. dev.                                       18.1604      14.5974      14.1032      11.0978      10.7507
+  weight sum                                           93           84          135          199          419
+  precision                                        0.1517       0.1517       0.1517       0.1517       0.1517
+
+app_foreground
+  com.whatsapp                                        9.0          5.0         14.0         14.0         42.0
+  com.android.chrome                                 12.0          4.0          9.0         23.0         23.0
+  org.pol.jmgo.qoesurveyor                            8.0          7.0         17.0         24.0         34.0
+  com.android.vending                                 1.0          2.0          2.0          1.0          3.0
+  com.twitter.android                                 6.0          5.0          2.0          2.0          8.0
+  com.netflix.mediaclient                             5.0          2.0          3.0          2.0         19.0
+  android                                             2.0          1.0          4.0          2.0          7.0
+  com.sec.android.app.launcher                        3.0          4.0          4.0          3.0         14.0
+  com.android.settings                                2.0          1.0          3.0          3.0          5.0
+  com.google.android.youtube                         26.0         45.0         62.0        101.0        189.0
+  com.android.launcher                                4.0          5.0          5.0          8.0          8.0
+  com.itau.latam.py.tarjetas                          1.0          1.0          1.0          2.0          1.0
+  com.internet.speed.meter.lite                       1.0          1.0          1.0          1.0          2.0
+  com.facebook.lite                                   1.0          1.0          1.0          1.0          5.0
+  com.facebook.katana                                 8.0          4.0          3.0          3.0         12.0
+  com.android.vpndialogs                              1.0          1.0          2.0          1.0          2.0
+  com.samsung.android.email.provider                  1.0          1.0          1.0          1.0          3.0
+  com.zerodesktop.appdetox.qualitytime                1.0          1.0          1.0          3.0          2.0
+  com.juvomobileinc.tigoshop.py                       1.0          1.0          1.0          1.0          2.0
+  com.android.systemui                                3.0          1.0          2.0          1.0          4.0
+  org.telegram.plus                                   2.0          1.0          1.0          1.0          1.0
+  com.sec.android.app.sbrowser                        6.0          3.0          1.0          2.0          3.0
+  com.spotify.music                                   2.0          2.0          1.0          2.0          2.0
+  com.facebook.moments                                1.0          1.0          1.0          1.0          2.0
+  com.ACP.ClinicalGuidelines                          1.0          2.0          1.0          1.0          2.0
+  py.com.abc.abctv                                    1.0          1.0          1.0          2.0          2.0
+  uk.co.bbc.mundo                                     1.0          1.0          1.0          1.0          2.0
+  org.khanacademy.android                             1.0          1.0          2.0          1.0          2.0
+  com.adobe.psmobile                                  1.0          1.0          1.0          1.0          2.0
+  com.samsung.android.incallui                        1.0          1.0          1.0          1.0          2.0
+  com.scdgroup.app.englishspeakvocal                  1.0          1.0          1.0          1.0          2.0
+  com.google.android.googlequicksearchbox             1.0          1.0          1.0          6.0          2.0
+  com.google.android.apps.maps                        1.0          1.0          1.0          1.0          6.0
+  jp.konami.duellinks                                 1.0          1.0          1.0          2.0          5.0
+  com.lge.launcher2                                   1.0          3.0         10.0          4.0          2.0
+  com.huawei.android.launcher                         1.0          1.0          2.0          2.0          1.0
+  com.google.android.apps.docs                        1.0          1.0          1.0          3.0          3.0
+  com.samsung.android.spay                            1.0          1.0          1.0          1.0          3.0
+  com.adobe.reader                                    1.0          1.0          2.0          1.0          4.0
+  com.garmin.android.apps.connectmobile               1.0          1.0          2.0          1.0          1.0
+  com.android.incallui                                1.0          1.0          1.0          2.0          1.0
+  com.sonyericsson.home                               3.0          1.0          1.0          1.0          2.0
+  com.waze                                            1.0          1.0          1.0          2.0          3.0
+  com.musixmatch.android.lyrify                       1.0          1.0          1.0          1.0          7.0
+  net.oneplus.launcher                                2.0          1.0          1.0          5.0          9.0
+  com.google.android.gms                              1.0          1.0          1.0          1.0          2.0
+  com.android.phone                                   1.0          1.0          1.0          1.0          2.0
+  com.jaraxa.todocoleccion                            1.0          1.0          1.0          1.0          3.0
+  com.supercell.clashofclans                          1.0          1.0          1.0          1.0          4.0
+  com.sonelli.juicessh                                2.0          1.0          2.0          1.0          1.0
+  com.instagram.android                               4.0          1.0          1.0          1.0          1.0
+  py.com.itau.tokpag                                  3.0          2.0          2.0          1.0          1.0
+  org.mozilla.firefox                                 2.0          5.0          1.0          2.0          1.0
+  com.android.launcher3                               1.0          1.0          3.0          1.0          1.0
+  com.amazon.avod.thirdpartyclient                    1.0          1.0          1.0          1.0          2.0
+  [total]                                           148.0        139.0        190.0        254.0        474.0
+
+
+
+Time taken to build model: 0.27 seconds
+
+Time taken to test model on training data: 0.07 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         479               51.5054 %
+Incorrectly Classified Instances       451               48.4946 %
+Kappa statistic                          0.3492
+Mean absolute error                      0.2172
+Root mean squared error                  0.3799
+Relative absolute error                 76.1993 %
+Root relative squared error            100.6683 %
+Total Number of Instances              930     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.301    0.017    0.667      0.301    0.415      0.411    0.812     0.473     1
+                 0.726    0.284    0.203      0.726    0.317      0.271    0.763     0.256     2
+                 0.281    0.047    0.507      0.281    0.362      0.304    0.735     0.376     3
+                 0.382    0.104    0.500      0.382    0.433      0.308    0.742     0.476     4
+                 0.659    0.164    0.767      0.659    0.709      0.505    0.802     0.766     5
+Weighted Avg.    0.515    0.130    0.611      0.515    0.535      0.403    0.777     0.572     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+  28  40   5  10  10 |   a = 1
+   1  61   6  11   5 |   b = 2
+   7  50  38  19  21 |   c = 3
+   3  61  11  76  48 |   d = 4
+   3  89  15  36 276 |   e = 5
+
+Time taken to perform cross-validation: 0.13 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         407               43.7634 %
+Incorrectly Classified Instances       523               56.2366 %
+Kappa statistic                          0.2539
+Mean absolute error                      0.2394
+Root mean squared error                  0.4049
+Relative absolute error                 84.0019 %
+Root relative squared error            107.3016 %
+Total Number of Instances              930     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.183    0.045    0.309      0.183    0.230      0.175    0.716     0.265     1
+                 0.607    0.319    0.159      0.607    0.252      0.174    0.676     0.193     2
+                 0.178    0.052    0.369      0.178    0.240      0.174    0.657     0.286     3
+                 0.332    0.114    0.443      0.332    0.379      0.244    0.679     0.405     4
+                 0.594    0.178    0.732      0.594    0.656      0.430    0.761     0.708     5
+Weighted Avg.    0.438    0.145    0.524      0.438    0.457      0.304    0.716     0.491     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+  17  47   3  15  11 |   a = 1
+   9  51   7   9   8 |   b = 2
+  12  57  24  16  26 |   c = 3
+   8  66  13  66  46 |   d = 4
+   9 100  18  43 249 |   e = 5
+

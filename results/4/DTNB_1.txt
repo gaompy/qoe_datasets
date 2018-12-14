@@ -1,0 +1,84 @@
+
+Options: -X 1 
+
+=== Classifier model (full training set) ===
+
+Decision Table:
+
+Number of training instances: 930
+Number of Rules : 92
+Non matches covered by Majority class.
+Evaluation (for feature selection): CV (leave one out) 
+Feature set: 2,5,13,21
+
+Time taken to build model: 2.29 seconds
+
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         588               63.2258 %
+Incorrectly Classified Instances       342               36.7742 %
+Kappa statistic                          0.476 
+Mean absolute error                      0.2075
+Root mean squared error                  0.3121
+Relative absolute error                 72.8131 %
+Root relative squared error             82.7022 %
+Total Number of Instances              930     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.581    0.053    0.551      0.581    0.565      0.516    0.893     0.515     1
+                 0.190    0.020    0.485      0.190    0.274      0.264    0.853     0.374     2
+                 0.296    0.059    0.460      0.296    0.360      0.287    0.833     0.460     3
+                 0.688    0.211    0.471      0.688    0.559      0.423    0.841     0.624     4
+                 0.814    0.157    0.810      0.814    0.812      0.657    0.899     0.887     5
+Weighted Avg.    0.632    0.131    0.631      0.632    0.619      0.504    0.872     0.685     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+  54   6  11  12  10 |   a = 1
+  20  16  10  24  14 |   b = 2
+  13   8  40  56  18 |   c = 3
+   4   1  19 137  38 |   d = 4
+   7   2   7  62 341 |   e = 5
+
+Time taken to perform cross-validation: 14.62 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         504               54.1935 %
+Incorrectly Classified Instances       426               45.8065 %
+Kappa statistic                          0.3402
+Mean absolute error                      0.2366
+Root mean squared error                  0.3463
+Relative absolute error                 83.0261 %
+Root relative squared error             91.7759 %
+Total Number of Instances              930     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.409    0.050    0.475      0.409    0.439      0.383    0.804     0.381     1
+                 0.179    0.044    0.288      0.179    0.221      0.168    0.730     0.210     2
+                 0.252    0.098    0.304      0.252    0.275      0.166    0.689     0.257     3
+                 0.432    0.193    0.379      0.432    0.404      0.228    0.721     0.416     4
+                 0.790    0.250    0.721      0.790    0.754      0.537    0.829     0.787     5
+Weighted Avg.    0.542    0.177    0.524      0.542    0.530      0.368    0.774     0.538     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+  38  10  16  14  15 |   a = 1
+  17  15  21  17  14 |   b = 2
+  14  17  34  41  29 |   c = 3
+   5   6  32  86  70 |   d = 4
+   6   4   9  69 331 |   e = 5
+

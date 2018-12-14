@@ -1,0 +1,95 @@
+
+Options: -F 1 -M 1.0 
+
+=== Classifier model (full training set) ===
+
+The A2DE Classifier
+
+Class 1: Prior probability = 0.1 
+Class 2: Prior probability = 0.09
+Class 3: Prior probability = 0.15
+Class 4: Prior probability = 0.21
+Class 5: Prior probability = 0.45
+
+Dataset: all-weka.filters.unsupervised.attribute.Reorder-R1,2,3,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,4-weka.filters.unsupervised.attribute.Reorder-R1,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,2-weka.filters.unsupervised.attribute.Reorder-R1,2,3,4,5,6,7,8,9,10,11,12,13,14,16,17,18,19,20,21,22,23,24,25,15-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.supervised.attribute.Discretize-Rfirst-last-precision6
+Instances: 930
+Attributes: 21
+Frequency limit for superParents: (F = 1) 
+Correction: m-estimate (m = 1.0)
+Incremental Classifier Flag: (false)
+Subsumption Resolution Flag: (false)
+Critical Value for Subsumption Resolution (100)
+Weighted A2DE Flag: (false)
+
+
+Time taken to build model: 0.4 seconds
+
+Time taken to test model on training data: 0.19 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         623               66.9892 %
+Incorrectly Classified Instances       307               33.0108 %
+Kappa statistic                          0.5292
+Mean absolute error                      0.1669
+Root mean squared error                  0.2903
+Relative absolute error                 58.5804 %
+Root relative squared error             76.9284 %
+Total Number of Instances              930     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.495    0.024    0.697      0.495    0.579      0.550    0.923     0.649     1
+                 0.452    0.045    0.500      0.452    0.475      0.426    0.908     0.484     2
+                 0.407    0.065    0.514      0.407    0.455      0.378    0.876     0.544     3
+                 0.648    0.159    0.527      0.648    0.581      0.456    0.871     0.662     4
+                 0.847    0.159    0.814      0.847    0.830      0.687    0.927     0.921     5
+Weighted Avg.    0.670    0.121    0.669      0.670    0.665      0.555    0.906     0.744     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+  46   7  14  14  12 |   a = 1
+   9  38  10  18   9 |   b = 2
+   6  16  55  36  22 |   c = 3
+   2  12  18 129  38 |   d = 4
+   3   3  10  48 355 |   e = 5
+
+Time taken to perform cross-validation: 0.7 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         514               55.2688 %
+Incorrectly Classified Instances       416               44.7312 %
+Kappa statistic                          0.3624
+Mean absolute error                      0.2067
+Root mean squared error                  0.3467
+Relative absolute error                 72.5136 %
+Root relative squared error             91.8823 %
+Total Number of Instances              930     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.301    0.045    0.424      0.301    0.352      0.299    0.815     0.365     1
+                 0.310    0.063    0.329      0.310    0.319      0.254    0.767     0.229     2
+                 0.215    0.079    0.315      0.215    0.256      0.160    0.700     0.254     3
+                 0.528    0.213    0.402      0.528    0.457      0.287    0.749     0.451     4
+                 0.778    0.207    0.755      0.778    0.766      0.569    0.852     0.836     5
+Weighted Avg.    0.553    0.161    0.544      0.553    0.544      0.394    0.796     0.567     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+  28  10  18  19  18 |   a = 1
+  13  26  10  22  13 |   b = 2
+  13  20  29  49  24 |   c = 3
+   3  16  24 105  51 |   d = 4
+   9   7  11  66 326 |   e = 5
+

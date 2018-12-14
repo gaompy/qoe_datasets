@@ -1,0 +1,113 @@
+
+Options: -B 2 -S 1 -R 1.0E-8 -M -1 -W 0.1 
+
+=== Classifier model (full training set) ===
+
+Radial basis function network
+(Logistic regression applied to K-means clusters as basis functions):
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                   Class
+Variable               1         2         3         4
+======================================================
+pCluster_0_0       5.999    5.0204    4.1741    2.4356
+pCluster_0_1      5.0948    3.8217    1.5848   -1.0156
+pCluster_1_0      2.2602    3.5064     1.348    0.4046
+pCluster_1_1      1.5923    2.0235    0.7923    0.9761
+pCluster_2_0      -0.504   -0.3613    1.6858   -0.5605
+pCluster_2_1      0.2065     0.506    1.5343   -0.8423
+pCluster_3_0     -1.2931   -3.0119   -0.3436    0.5803
+pCluster_3_1     -0.6673   -0.4595    0.7678    2.0002
+pCluster_4_0     -3.0618   -2.2733   -1.9536   -1.5152
+pCluster_4_1     -1.5805   -2.3012   -3.5316   -1.7391
+Intercept        -1.9986   -2.1879   -1.2587   -0.8461
+
+
+Odds Ratios...
+                   Class
+Variable               1         2         3         4
+======================================================
+pCluster_0_0    403.0397  151.4683   64.9835   11.4232
+pCluster_0_1    163.1666   45.6839    4.8781    0.3622
+pCluster_1_0      9.5846   33.3285    3.8496    1.4986
+pCluster_1_1      4.9152    7.5645    2.2085    2.6542
+pCluster_2_0      0.6041    0.6968    5.3966    0.5709
+pCluster_2_1      1.2294    1.6586    4.6381    0.4307
+pCluster_3_0      0.2744    0.0492    0.7092    1.7865
+pCluster_3_1      0.5131    0.6316     2.155    7.3902
+pCluster_4_0      0.0468     0.103    0.1418    0.2198
+pCluster_4_1      0.2059    0.1001    0.0293    0.1757
+
+
+Time taken to build model: 0.65 seconds
+
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         525               56.4516 %
+Incorrectly Classified Instances       405               43.5484 %
+Kappa statistic                          0.3707
+Mean absolute error                      0.2256
+Root mean squared error                  0.3357
+Relative absolute error                 79.1681 %
+Root relative squared error             88.9731 %
+Total Number of Instances              930     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.387    0.038    0.529      0.387    0.447      0.402    0.844     0.482     1
+                 0.345    0.059    0.367      0.345    0.356      0.294    0.815     0.383     2
+                 0.296    0.054    0.482      0.296    0.367      0.299    0.768     0.389     3
+                 0.492    0.183    0.422      0.492    0.455      0.293    0.749     0.502     4
+                 0.768    0.286    0.688      0.768    0.726      0.480    0.816     0.761     5
+Weighted Avg.    0.565    0.185    0.556      0.565    0.555      0.389    0.798     0.589     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+  36  12   4  16  25 |   a = 1
+  13  29   5  25  12 |   b = 2
+  11  13  40  35  36 |   c = 3
+   4  13  11  98  73 |   d = 4
+   4  12  23  58 322 |   e = 5
+
+Time taken to perform cross-validation: 1.12 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         443               47.6344 %
+Incorrectly Classified Instances       487               52.3656 %
+Kappa statistic                          0.22  
+Mean absolute error                      0.2458
+Root mean squared error                  0.3595
+Relative absolute error                 86.2272 %
+Root relative squared error             95.2589 %
+Total Number of Instances              930     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.280    0.039    0.441      0.280    0.342      0.296    0.781     0.347     1
+                 0.226    0.056    0.288      0.226    0.253      0.190    0.700     0.210     2
+                 0.119    0.059    0.254      0.119    0.162      0.083    0.661     0.251     3
+                 0.367    0.187    0.348      0.367    0.357      0.176    0.665     0.330     4
+                 0.737    0.436    0.581      0.737    0.650      0.303    0.743     0.696     5
+Weighted Avg.    0.476    0.254    0.443      0.476    0.450      0.233    0.714     0.474     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+  26  14   5  11  37 |   a = 1
+  12  19   7  15  31 |   b = 2
+   8  11  16  43  57 |   c = 3
+   8   7  13  73  98 |   d = 4
+   5  15  22  68 309 |   e = 5
+

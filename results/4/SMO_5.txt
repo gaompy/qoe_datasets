@@ -1,0 +1,1027 @@
+
+Options: -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4" 
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 1, 2
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0164 * (normalized) alejado
+ +       1.232  * (normalized) battery_l
+ +      -0.8301 * (normalized) battery_t
+ +       0.0208 * (normalized) bw
+ +      -0.391  * (normalized) devid=c8afba09e53d8531
+ +       0.3905 * (normalized) devid=68af49bcc059f325
+ +       0.6958 * (normalized) devid=8e16d706819d2e0c
+ +      -1      * (normalized) devid=e2f3a59016564a22
+ +       1      * (normalized) devid=da864a689e433b5e
+ +      -1      * (normalized) devid=751666ecdd98bfd3
+ +      -0.9382 * (normalized) devid=ffdd93d674719bbc
+ +      -1.2075 * (normalized) devid=1d966fc8f0e98430
+ +      -0.1862 * (normalized) devid=d88a327ce250630
+ +      -0.2091 * (normalized) devid=9c19bb5d04be923e
+ +       0.608  * (normalized) devid=bbe3002f6e378eed
+ +       0.6563 * (normalized) devid=d554e3b29fe24a3b
+ +       0.5652 * (normalized) devid=4c3dfa2cea50e9bb
+ +       0.5392 * (normalized) devid=61d848e7503b5852
+ +       0.3837 * (normalized) devid=4504da30b01769b7
+ +       0.8499 * (normalized) devid=9de8b4b98c575ea5
+ +      -0.8003 * (normalized) devid=a6fb86ca165ca918
+ +       0.6717 * (normalized) devid=65e49509039eb913
+ +       0.0691 * (normalized) devid=0264ea70c8976793
+ +       0.7881 * (normalized) devid=3c66f51dbc94d163
+ +      -0.6306 * (normalized) devid=6f2a6c95c065c7a3
+ +      -0.0135 * (normalized) devid=f25d48f8931ef23f
+ +      -0.6682 * (normalized) devid=c43e0a23ab297d87
+ +      -1      * (normalized) devid=867287031950897
+ +       0.243  * (normalized) devid=a208a7c4a26d8df7
+ +       0.5842 * (normalized) devid=d71847dfd6b46fcd
+ +       0.1258 * (normalized) df_delay
+ +      -0.1516 * (normalized) df_saltos
+ +       0.2227 * (normalized) ds
+ +      -0.1023 * (normalized) dv_delay
+ +      -0.7259 * (normalized) dv_saltos
+ +      -0.1587 * (normalized) indice_en_prueba
+ +       0.1845 * (normalized) indice_intervalo
+ +      -1.0826 * (normalized) mood
+ +       1.5036 * (normalized) ns
+ +       0.1461 * (normalized) prueba_nro
+ +      -0.6418 * (normalized) ram
+ +       0.0798 * (normalized) sdk
+ +      -0.4844 * (normalized) st
+ +       0.065  * (normalized) t_cpu
+ +       0      * (normalized) app_foreground=com.whatsapp
+ +      -0.1512 * (normalized) app_foreground=com.android.chrome
+ +      -0.1177 * (normalized) app_foreground=org.pol.jmgo.qoesurveyor
+ +       1      * (normalized) app_foreground=com.android.vending
+ +      -0.0982 * (normalized) app_foreground=com.twitter.android
+ +      -0.1521 * (normalized) app_foreground=com.netflix.mediaclient
+ +      -0.1648 * (normalized) app_foreground=android
+ +       0.0201 * (normalized) app_foreground=com.sec.android.app.launcher
+ +       0.5133 * (normalized) app_foreground=com.google.android.youtube
+ +       0.3367 * (normalized) app_foreground=com.android.launcher
+ +      -1      * (normalized) app_foreground=com.facebook.katana
+ +      -0.1438 * (normalized) app_foreground=com.android.systemui
+ +      -0.1005 * (normalized) app_foreground=org.telegram.plus
+ +      -1.1659 * (normalized) app_foreground=com.sec.android.app.sbrowser
+ +       0.1026 * (normalized) app_foreground=com.spotify.music
+ +       0.7112 * (normalized) app_foreground=com.ACP.ClinicalGuidelines
+ +       0.608  * (normalized) app_foreground=com.lge.launcher2
+ +      -0.4093 * (normalized) app_foreground=com.sonyericsson.home
+ +      -0.9309 * (normalized) app_foreground=net.oneplus.launcher
+ +      -0.1777 * (normalized) app_foreground=com.instagram.android
+ +      -0.358  * (normalized) app_foreground=py.com.itau.tokpag
+ +       1.6784 * (normalized) app_foreground=org.mozilla.firefox
+ -       0.2524
+
+Number of kernel evaluations: 11312 (96.064% cached)
+
+Classifier for classes: 1, 3
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1616 * (normalized) alejado
+ +       1.5633 * (normalized) battery_l
+ +       0.2325 * (normalized) battery_t
+ +       0.054  * (normalized) bw
+ +      -0.1365 * (normalized) devid=63958117e9438e16
+ +      -1      * (normalized) devid=c8afba09e53d8531
+ +       0.1939 * (normalized) devid=68af49bcc059f325
+ +       0.2531 * (normalized) devid=8e16d706819d2e0c
+ +       0.2141 * (normalized) devid=7bf44203a040cdc1
+ +       1      * (normalized) devid=7b3d12955096c795
+ +      -0.0951 * (normalized) devid=e2f3a59016564a22
+ +       1.275  * (normalized) devid=da864a689e433b5e
+ +      -1      * (normalized) devid=751666ecdd98bfd3
+ +      -0.3732 * (normalized) devid=ffdd93d674719bbc
+ +      -1.0549 * (normalized) devid=1d966fc8f0e98430
+ +      -0.6569 * (normalized) devid=d88a327ce250630
+ +      -0.7399 * (normalized) devid=9c19bb5d04be923e
+ +       0.3908 * (normalized) devid=e64bbee157aededc
+ +       0.3542 * (normalized) devid=d554e3b29fe24a3b
+ +      -0.1715 * (normalized) devid=4c3dfa2cea50e9bb
+ +       0.3066 * (normalized) devid=61d848e7503b5852
+ +       0.5779 * (normalized) devid=867fe59be043d779
+ +       0.1879 * (normalized) devid=4504da30b01769b7
+ +       0.2873 * (normalized) devid=9de8b4b98c575ea5
+ +       0.2046 * (normalized) devid=a6fb86ca165ca918
+ +       0      * (normalized) devid=65e49509039eb913
+ +       0.2336 * (normalized) devid=247e4508ec4521f9
+ +       0.3688 * (normalized) devid=6c3fa7f635a073f5
+ +       0.4517 * (normalized) devid=7caeb732fb3ad6af
+ +       1.1299 * (normalized) devid=344404a75543aaf0
+ +      -0.3228 * (normalized) devid=0264ea70c8976793
+ +       0.3573 * (normalized) devid=3c66f51dbc94d163
+ +      -1.4935 * (normalized) devid=6f2a6c95c065c7a3
+ +      -0.0487 * (normalized) devid=f25d48f8931ef23f
+ +      -0.4227 * (normalized) devid=c43e0a23ab297d87
+ +      -0.3096 * (normalized) devid=867287031950897
+ +       0.3608 * (normalized) devid=a32d3af596578938
+ +      -0.3223 * (normalized) devid=d71847dfd6b46fcd
+ +       1.7259 * (normalized) df_delay
+ +      -0.0457 * (normalized) df_saltos
+ +       0.5883 * (normalized) ds
+ +       1.4689 * (normalized) dv_delay
+ +      -0.6459 * (normalized) dv_saltos
+ +      -1.2109 * (normalized) indice_en_prueba
+ +      -0.0843 * (normalized) indice_intervalo
+ +      -1.0418 * (normalized) mood
+ +       0.6532 * (normalized) ns
+ +      -0.144  * (normalized) prueba_nro
+ +      -0.0943 * (normalized) ram
+ +       0.1062 * (normalized) sdk
+ +       0.4295 * (normalized) st
+ +       1.1201 * (normalized) t_cpu
+ +       0.1995 * (normalized) app_foreground=com.whatsapp
+ +      -0.61   * (normalized) app_foreground=com.android.chrome
+ +       0.3819 * (normalized) app_foreground=org.pol.jmgo.qoesurveyor
+ +       0.106  * (normalized) app_foreground=com.android.vending
+ +      -0.6459 * (normalized) app_foreground=com.twitter.android
+ +      -0.5972 * (normalized) app_foreground=com.netflix.mediaclient
+ +       0.9367 * (normalized) app_foreground=android
+ +       0.2648 * (normalized) app_foreground=com.sec.android.app.launcher
+ +       0.2369 * (normalized) app_foreground=com.android.settings
+ +       0.7933 * (normalized) app_foreground=com.google.android.youtube
+ +       0.835  * (normalized) app_foreground=com.android.launcher
+ +      -0.6117 * (normalized) app_foreground=com.facebook.katana
+ +       0.3659 * (normalized) app_foreground=com.android.systemui
+ +      -0.6645 * (normalized) app_foreground=org.telegram.plus
+ +      -0.9854 * (normalized) app_foreground=com.sec.android.app.sbrowser
+ +       0.9985 * (normalized) app_foreground=org.khanacademy.android
+ +       0.1813 * (normalized) app_foreground=com.lge.launcher2
+ +       0.5779 * (normalized) app_foreground=com.adobe.reader
+ +      -0.5441 * (normalized) app_foreground=com.sonyericsson.home
+ +      -0.3373 * (normalized) app_foreground=net.oneplus.launcher
+ +      -0.2424 * (normalized) app_foreground=com.instagram.android
+ +      -1      * (normalized) app_foreground=py.com.itau.tokpag
+ +       0.3608 * (normalized) app_foreground=com.android.launcher3
+ -       1.6176
+
+Number of kernel evaluations: 18764 (89.917% cached)
+
+Classifier for classes: 1, 4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0264 * (normalized) alejado
+ +       2.1119 * (normalized) battery_l
+ +       0.261  * (normalized) battery_t
+ +      -0.4696 * (normalized) bw
+ +      -0.5223 * (normalized) devid=63958117e9438e16
+ +      -1      * (normalized) devid=c8afba09e53d8531
+ +       1.5962 * (normalized) devid=8e16d706819d2e0c
+ +       0.4256 * (normalized) devid=7bf44203a040cdc1
+ +       0.3832 * (normalized) devid=7b3d12955096c795
+ +      -1      * (normalized) devid=e2f3a59016564a22
+ +       0.9282 * (normalized) devid=da864a689e433b5e
+ +      -1      * (normalized) devid=751666ecdd98bfd3
+ +      -0.7016 * (normalized) devid=ffdd93d674719bbc
+ +      -1.4354 * (normalized) devid=1d966fc8f0e98430
+ +       0.1256 * (normalized) devid=9f174fc0bd3480a6
+ +       0.8462 * (normalized) devid=d88a327ce250630
+ +      -0.8108 * (normalized) devid=9c19bb5d04be923e
+ +       0.2759 * (normalized) devid=790c227141314780
+ +       0.145  * (normalized) devid=bbe3002f6e378eed
+ +       0.888  * (normalized) devid=e64bbee157aededc
+ +       0.7513 * (normalized) devid=d554e3b29fe24a3b
+ +      -0.1832 * (normalized) devid=4c3dfa2cea50e9bb
+ +       0.5691 * (normalized) devid=332d672c51091609
+ +       0.059  * (normalized) devid=61d848e7503b5852
+ +       0.0591 * (normalized) devid=4504da30b01769b7
+ +       0.9125 * (normalized) devid=9de8b4b98c575ea5
+ +      -0.3042 * (normalized) devid=a6fb86ca165ca918
+ +       0.0089 * (normalized) devid=65e49509039eb913
+ +       0.7049 * (normalized) devid=247e4508ec4521f9
+ +       0.3678 * (normalized) devid=7caeb732fb3ad6af
+ +       1.5476 * (normalized) devid=344404a75543aaf0
+ +      -0.0661 * (normalized) devid=0264ea70c8976793
+ +      -2.0216 * (normalized) devid=6f2a6c95c065c7a3
+ +      -0.8652 * (normalized) devid=f25d48f8931ef23f
+ +      -0.8168 * (normalized) devid=c43e0a23ab297d87
+ +       0.0204 * (normalized) devid=867287031950897
+ +       0.2084 * (normalized) devid=2f41118c2aee66ae
+ +      -0.0959 * (normalized) devid=d71847dfd6b46fcd
+ +       0.3315 * (normalized) df_delay
+ +      -0.3981 * (normalized) df_saltos
+ +       0.3769 * (normalized) ds
+ +       0.2521 * (normalized) dv_delay
+ +      -1.1831 * (normalized) dv_saltos
+ +      -0.4159 * (normalized) indice_en_prueba
+ +      -0.4935 * (normalized) indice_intervalo
+ +      -1.5296 * (normalized) mood
+ +       1.2863 * (normalized) ns
+ +      -1.4498 * (normalized) prueba_nro
+ +      -0.2647 * (normalized) ram
+ +      -0.0842 * (normalized) sdk
+ +       0.0161 * (normalized) st
+ +       1.4782 * (normalized) t_cpu
+ +       0.0644 * (normalized) app_foreground=com.whatsapp
+ +       0.198  * (normalized) app_foreground=com.android.chrome
+ +       0.2836 * (normalized) app_foreground=org.pol.jmgo.qoesurveyor
+ +       0.227  * (normalized) app_foreground=com.twitter.android
+ +      -0.6832 * (normalized) app_foreground=com.netflix.mediaclient
+ +       0.3526 * (normalized) app_foreground=android
+ +      -0      * (normalized) app_foreground=com.sec.android.app.launcher
+ +      -0      * (normalized) app_foreground=com.android.settings
+ +       0.2726 * (normalized) app_foreground=com.google.android.youtube
+ +       0.278  * (normalized) app_foreground=com.android.launcher
+ +       0.2172 * (normalized) app_foreground=com.itau.latam.py.tarjetas
+ +      -1.7583 * (normalized) app_foreground=com.facebook.katana
+ +       1.4259 * (normalized) app_foreground=com.zerodesktop.appdetox.qualitytime
+ +       0      * (normalized) app_foreground=com.android.systemui
+ +      -0.8642 * (normalized) app_foreground=org.telegram.plus
+ +      -0.7412 * (normalized) app_foreground=com.sec.android.app.sbrowser
+ +      -0.2967 * (normalized) app_foreground=com.spotify.music
+ +       0.2972 * (normalized) app_foreground=com.google.android.googlequicksearchbox
+ +       0.5395 * (normalized) app_foreground=jp.konami.duellinks
+ +      -0      * (normalized) app_foreground=com.google.android.apps.docs
+ +      -0.3042 * (normalized) app_foreground=com.sonyericsson.home
+ +       0.0859 * (normalized) app_foreground=com.waze
+ +       0      * (normalized) app_foreground=net.oneplus.launcher
+ +      -0.2697 * (normalized) app_foreground=py.com.itau.tokpag
+ +       0.6756 * (normalized) app_foreground=org.mozilla.firefox
+ -       1.062 
+
+Number of kernel evaluations: 30515 (89.708% cached)
+
+Classifier for classes: 1, 5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0742 * (normalized) alejado
+ +       0.0447 * (normalized) battery_l
+ +       0.1362 * (normalized) battery_t
+ +      -0.0882 * (normalized) bw
+ +      -0.1079 * (normalized) devid=63958117e9438e16
+ +       0.3332 * (normalized) devid=2440f9791015c9aa
+ +       0.3124 * (normalized) devid=c8afba09e53d8531
+ +       0.1725 * (normalized) devid=90a72847e24050d1
+ +       0.2537 * (normalized) devid=22dee25d96b05f3e
+ +       0.2603 * (normalized) devid=8e16d706819d2e0c
+ +       0.4163 * (normalized) devid=7bf44203a040cdc1
+ +       0.2807 * (normalized) devid=acf1f4860469c6fd
+ +       0.0078 * (normalized) devid=21499054c7994fc4
+ +       0.5224 * (normalized) devid=7b3d12955096c795
+ +      -1      * (normalized) devid=e2f3a59016564a22
+ +       0.7054 * (normalized) devid=da864a689e433b5e
+ +      -1      * (normalized) devid=751666ecdd98bfd3
+ +       0      * (normalized) devid=c4a9b97bec0deec7
+ +      -1.3207 * (normalized) devid=ffdd93d674719bbc
+ +       0.2375 * (normalized) devid=11d70c1436d1ce27
+ +       0.0826 * (normalized) devid=4261a8320ddd09d0
+ +      -0.205  * (normalized) devid=1d966fc8f0e98430
+ +       0.2563 * (normalized) devid=9f174fc0bd3480a6
+ +       0.6576 * (normalized) devid=d88a327ce250630
+ +      -0.7327 * (normalized) devid=9c19bb5d04be923e
+ +       0.0908 * (normalized) devid=790c227141314780
+ +       0.0145 * (normalized) devid=4192432e1cf42d52
+ +       0.2821 * (normalized) devid=6e85b338913ae764
+ +       0.354  * (normalized) devid=d554e3b29fe24a3b
+ +      -1.2426 * (normalized) devid=4c3dfa2cea50e9bb
+ +       0.454  * (normalized) devid=332d672c51091609
+ +       0.1023 * (normalized) devid=61d848e7503b5852
+ +       0.335  * (normalized) devid=867fe59be043d779
+ +       0.1948 * (normalized) devid=a1f8f29e35209a42
+ +       0.5519 * (normalized) devid=4504da30b01769b7
+ +       0      * (normalized) devid=7e4cfd066dafa944
+ +       0.1978 * (normalized) devid=9de8b4b98c575ea5
+ +       0.2389 * (normalized) devid=5a92d851bc704d
+ +      -0.2147 * (normalized) devid=a6fb86ca165ca918
+ +       0.6138 * (normalized) devid=247e4508ec4521f9
+ +       0.4402 * (normalized) devid=6c3fa7f635a073f5
+ +       0.5658 * (normalized) devid=7caeb732fb3ad6af
+ +       0.4757 * (normalized) devid=344404a75543aaf0
+ +       0.3049 * (normalized) devid=0264ea70c8976793
+ +      -1.9612 * (normalized) devid=6f2a6c95c065c7a3
+ +      -1.7914 * (normalized) devid=f25d48f8931ef23f
+ +      -1.2368 * (normalized) devid=c43e0a23ab297d87
+ +       0      * (normalized) devid=bd016d8f3093b6a4
+ +      -0.2645 * (normalized) devid=867287031950897
+ +       0.7366 * (normalized) devid=a32d3af596578938
+ +       0.3468 * (normalized) devid=81410329db99223d
+ +       0.2789 * (normalized) devid=2f41118c2aee66ae
+ +       0.497  * (normalized) df_delay
+ +       0.0097 * (normalized) df_saltos
+ +       0.2912 * (normalized) ds
+ +       0.1848 * (normalized) dv_delay
+ +      -0.5822 * (normalized) dv_saltos
+ +      -0.1692 * (normalized) indice_en_prueba
+ +       0.0725 * (normalized) indice_intervalo
+ +      -0.2035 * (normalized) mood
+ +       0.7022 * (normalized) ns
+ +      -0.3613 * (normalized) prueba_nro
+ +       0.3393 * (normalized) ram
+ +      -0.6152 * (normalized) sdk
+ +       0.0224 * (normalized) st
+ +       1.4172 * (normalized) t_cpu
+ +      -0.0812 * (normalized) app_foreground=com.whatsapp
+ +      -0.261  * (normalized) app_foreground=com.android.chrome
+ +      -0.1026 * (normalized) app_foreground=org.pol.jmgo.qoesurveyor
+ +      -0      * (normalized) app_foreground=com.twitter.android
+ +      -0      * (normalized) app_foreground=com.netflix.mediaclient
+ +       0.2343 * (normalized) app_foreground=android
+ +      -0.164  * (normalized) app_foreground=com.sec.android.app.launcher
+ +       0.3556 * (normalized) app_foreground=com.android.settings
+ +      -0.1081 * (normalized) app_foreground=com.google.android.youtube
+ +       0.3111 * (normalized) app_foreground=com.android.launcher
+ +       0.2807 * (normalized) app_foreground=com.internet.speed.meter.lite
+ +       0      * (normalized) app_foreground=com.facebook.lite
+ +      -0.5968 * (normalized) app_foreground=com.facebook.katana
+ +       1      * (normalized) app_foreground=com.zerodesktop.appdetox.qualitytime
+ +      -0.1334 * (normalized) app_foreground=com.android.systemui
+ +      -1      * (normalized) app_foreground=org.telegram.plus
+ +      -0.362  * (normalized) app_foreground=com.sec.android.app.sbrowser
+ +      -0.3862 * (normalized) app_foreground=com.spotify.music
+ +       0.8544 * (normalized) app_foreground=com.google.android.apps.maps
+ +       0.735  * (normalized) app_foreground=jp.konami.duellinks
+ +       0.1978 * (normalized) app_foreground=com.lge.launcher2
+ +      -0.5923 * (normalized) app_foreground=com.sonyericsson.home
+ +       0      * (normalized) app_foreground=com.musixmatch.android.lyrify
+ +      -0.0898 * (normalized) app_foreground=net.oneplus.launcher
+ +      -0      * (normalized) app_foreground=com.supercell.clashofclans
+ +       0      * (normalized) app_foreground=com.instagram.android
+ +      -0.0912 * (normalized) app_foreground=py.com.itau.tokpag
+ -       0.2575
+
+Number of kernel evaluations: 96572 (93.169% cached)
+
+Classifier for classes: 2, 3
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.2015 * (normalized) alejado
+ +       1.045  * (normalized) battery_l
+ +       0.1704 * (normalized) battery_t
+ +      -0.5959 * (normalized) bw
+ +       0.1398 * (normalized) devid=63958117e9438e16
+ +      -1      * (normalized) devid=68af49bcc059f325
+ +       0.1786 * (normalized) devid=8e16d706819d2e0c
+ +       0.1929 * (normalized) devid=7bf44203a040cdc1
+ +       1      * (normalized) devid=7b3d12955096c795
+ +       0.0638 * (normalized) devid=e2f3a59016564a22
+ +       0.0039 * (normalized) devid=da864a689e433b5e
+ +       0.3033 * (normalized) devid=ffdd93d674719bbc
+ +       0.1052 * (normalized) devid=2e9b9b3b97476bf5
+ +       0.4484 * (normalized) devid=1d966fc8f0e98430
+ +      -0.9012 * (normalized) devid=d88a327ce250630
+ +       0.3622 * (normalized) devid=9c19bb5d04be923e
+ +       0.3912 * (normalized) devid=790c227141314780
+ +      -1.9897 * (normalized) devid=bbe3002f6e378eed
+ +       0.4104 * (normalized) devid=e64bbee157aededc
+ +      -1.3399 * (normalized) devid=4c3dfa2cea50e9bb
+ +       0.3052 * (normalized) devid=61d848e7503b5852
+ +       0.3551 * (normalized) devid=867fe59be043d779
+ +       0.5079 * (normalized) devid=4504da30b01769b7
+ +       0.3558 * (normalized) devid=9de8b4b98c575ea5
+ +       1.0055 * (normalized) devid=a6fb86ca165ca918
+ +      -1      * (normalized) devid=65e49509039eb913
+ +       0.7087 * (normalized) devid=247e4508ec4521f9
+ +       0.338  * (normalized) devid=6c3fa7f635a073f5
+ +       0.7701 * (normalized) devid=7caeb732fb3ad6af
+ +       0.6078 * (normalized) devid=344404a75543aaf0
+ +      -0.0179 * (normalized) devid=0264ea70c8976793
+ +       0      * (normalized) devid=3c66f51dbc94d163
+ +      -1.2673 * (normalized) devid=6f2a6c95c065c7a3
+ +      -0.8272 * (normalized) devid=f25d48f8931ef23f
+ +       0.4917 * (normalized) devid=c43e0a23ab297d87
+ +       0.1012 * (normalized) devid=867287031950897
+ +       0.2946 * (normalized) devid=a32d3af596578938
+ +      -1      * (normalized) devid=a208a7c4a26d8df7
+ +      -0.098  * (normalized) devid=d71847dfd6b46fcd
+ +       0.5668 * (normalized) df_delay
+ +       0.4942 * (normalized) df_saltos
+ +       0.2008 * (normalized) ds
+ +       0.7894 * (normalized) dv_delay
+ +      -0.2146 * (normalized) dv_saltos
+ +      -0.8017 * (normalized) indice_en_prueba
+ +      -0.4496 * (normalized) indice_intervalo
+ +      -0.4942 * (normalized) mood
+ +      -0.6707 * (normalized) ns
+ +      -0.9126 * (normalized) prueba_nro
+ +       0.5626 * (normalized) ram
+ +       0.1923 * (normalized) sdk
+ +      -0.1913 * (normalized) st
+ +       0.8686 * (normalized) t_cpu
+ +       0.1622 * (normalized) app_foreground=com.whatsapp
+ +      -0.3922 * (normalized) app_foreground=com.android.chrome
+ +      -0.0858 * (normalized) app_foreground=org.pol.jmgo.qoesurveyor
+ +      -0.1452 * (normalized) app_foreground=com.android.vending
+ +      -1.291  * (normalized) app_foreground=com.twitter.android
+ +       0.0039 * (normalized) app_foreground=com.netflix.mediaclient
+ +       1.4568 * (normalized) app_foreground=android
+ +      -0.0843 * (normalized) app_foreground=com.sec.android.app.launcher
+ +       0.1836 * (normalized) app_foreground=com.android.settings
+ +       0.1561 * (normalized) app_foreground=com.google.android.youtube
+ +       0.0657 * (normalized) app_foreground=com.android.systemui
+ +      -0.3774 * (normalized) app_foreground=com.sec.android.app.sbrowser
+ +      -0.1312 * (normalized) app_foreground=com.spotify.music
+ +      -0.1937 * (normalized) app_foreground=com.ACP.ClinicalGuidelines
+ +       1      * (normalized) app_foreground=org.khanacademy.android
+ +      -0.0081 * (normalized) app_foreground=com.lge.launcher2
+ +       0.3551 * (normalized) app_foreground=com.adobe.reader
+ +       0.4552 * (normalized) app_foreground=com.sonelli.juicessh
+ +      -1.3518 * (normalized) app_foreground=org.mozilla.firefox
+ +       0.2222 * (normalized) app_foreground=com.android.launcher3
+ +       0.2466
+
+Number of kernel evaluations: 16432 (90.306% cached)
+
+Classifier for classes: 2, 4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.3721 * (normalized) alejado
+ +       1.0168 * (normalized) battery_l
+ +       0.115  * (normalized) battery_t
+ +      -0.4192 * (normalized) bw
+ +       0.2981 * (normalized) devid=63958117e9438e16
+ +      -1.1501 * (normalized) devid=68af49bcc059f325
+ +       0.4784 * (normalized) devid=8e16d706819d2e0c
+ +       0.0596 * (normalized) devid=7bf44203a040cdc1
+ +       0.6038 * (normalized) devid=7b3d12955096c795
+ +      -0.0821 * (normalized) devid=da864a689e433b5e
+ +       0.1088 * (normalized) devid=ffdd93d674719bbc
+ +       0.3167 * (normalized) devid=2e9b9b3b97476bf5
+ +       0.417  * (normalized) devid=1d966fc8f0e98430
+ +       0.3181 * (normalized) devid=9f174fc0bd3480a6
+ +       0.8167 * (normalized) devid=d88a327ce250630
+ +      -0.0366 * (normalized) devid=9c19bb5d04be923e
+ +       0.4557 * (normalized) devid=790c227141314780
+ +      -0.3101 * (normalized) devid=bbe3002f6e378eed
+ +       0.5928 * (normalized) devid=e64bbee157aededc
+ +      -1.2301 * (normalized) devid=4c3dfa2cea50e9bb
+ +       0.3931 * (normalized) devid=332d672c51091609
+ +       0.6434 * (normalized) devid=61d848e7503b5852
+ +       0.2796 * (normalized) devid=4504da30b01769b7
+ +       0.0532 * (normalized) devid=7e4cfd066dafa944
+ +       0.6436 * (normalized) devid=9de8b4b98c575ea5
+ +       0.7379 * (normalized) devid=a6fb86ca165ca918
+ +      -1.6416 * (normalized) devid=65e49509039eb913
+ +       0.7676 * (normalized) devid=247e4508ec4521f9
+ +       0.385  * (normalized) devid=6c3fa7f635a073f5
+ +       0.2519 * (normalized) devid=7caeb732fb3ad6af
+ +       0.5687 * (normalized) devid=344404a75543aaf0
+ +       0.3868 * (normalized) devid=0264ea70c8976793
+ +      -1.3535 * (normalized) devid=3c66f51dbc94d163
+ +      -1.5147 * (normalized) devid=6f2a6c95c065c7a3
+ +      -1.3971 * (normalized) devid=f25d48f8931ef23f
+ +      -0.5541 * (normalized) devid=c43e0a23ab297d87
+ +       0.5263 * (normalized) devid=867287031950897
+ +       0.1674 * (normalized) devid=2f41118c2aee66ae
+ +      -1      * (normalized) devid=a208a7c4a26d8df7
+ +       0      * (normalized) devid=d71847dfd6b46fcd
+ +       0.013  * (normalized) df_delay
+ +      -0.0754 * (normalized) df_saltos
+ +      -0.152  * (normalized) ds
+ +       0.0685 * (normalized) dv_delay
+ +       0.1003 * (normalized) dv_saltos
+ +       0.2144 * (normalized) indice_en_prueba
+ +      -0.7507 * (normalized) indice_intervalo
+ +      -0.6792 * (normalized) mood
+ +      -0.2656 * (normalized) ns
+ +      -0.7614 * (normalized) prueba_nro
+ +       0.036  * (normalized) ram
+ +      -0.3478 * (normalized) sdk
+ +       0.1669 * (normalized) st
+ +       0.7372 * (normalized) t_cpu
+ +       0.1607 * (normalized) app_foreground=com.whatsapp
+ +       0.2239 * (normalized) app_foreground=com.android.chrome
+ +       0.1615 * (normalized) app_foreground=org.pol.jmgo.qoesurveyor
+ +      -0.3535 * (normalized) app_foreground=com.twitter.android
+ +      -0.0117 * (normalized) app_foreground=com.netflix.mediaclient
+ +       1      * (normalized) app_foreground=android
+ +      -1      * (normalized) app_foreground=com.sec.android.app.launcher
+ +       0.0115 * (normalized) app_foreground=com.android.settings
+ +       0.1836 * (normalized) app_foreground=com.google.android.youtube
+ +       0.1164 * (normalized) app_foreground=com.android.launcher
+ +       0.2681 * (normalized) app_foreground=com.itau.latam.py.tarjetas
+ +      -1      * (normalized) app_foreground=com.facebook.katana
+ +       0.2932 * (normalized) app_foreground=com.zerodesktop.appdetox.qualitytime
+ +       0.139  * (normalized) app_foreground=com.sec.android.app.sbrowser
+ +      -1      * (normalized) app_foreground=com.ACP.ClinicalGuidelines
+ +       0.26   * (normalized) app_foreground=py.com.abc.abctv
+ +       0.1618 * (normalized) app_foreground=com.google.android.googlequicksearchbox
+ +       0.1862 * (normalized) app_foreground=jp.konami.duellinks
+ +      -0.3564 * (normalized) app_foreground=com.lge.launcher2
+ +       0.0134 * (normalized) app_foreground=com.huawei.android.launcher
+ +       0.0764 * (normalized) app_foreground=com.google.android.apps.docs
+ +       0.3868 * (normalized) app_foreground=net.oneplus.launcher
+ +       0.0793 * (normalized) app_foreground=org.mozilla.firefox
+ +       0.3846
+
+Number of kernel evaluations: 28129 (94.209% cached)
+
+Classifier for classes: 2, 5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0403 * (normalized) alejado
+ +       0.015  * (normalized) battery_l
+ +       0.2156 * (normalized) battery_t
+ +      -0.1703 * (normalized) bw
+ +      -0      * (normalized) devid=63958117e9438e16
+ +       0.4431 * (normalized) devid=2440f9791015c9aa
+ +       0.2397 * (normalized) devid=c8afba09e53d8531
+ +       0.2351 * (normalized) devid=90a72847e24050d1
+ +       0.1358 * (normalized) devid=22dee25d96b05f3e
+ +      -1.0062 * (normalized) devid=68af49bcc059f325
+ +      -0.355  * (normalized) devid=8e16d706819d2e0c
+ +       0.0915 * (normalized) devid=7bf44203a040cdc1
+ +       0.1346 * (normalized) devid=acf1f4860469c6fd
+ +       0.1087 * (normalized) devid=21499054c7994fc4
+ +       0.6533 * (normalized) devid=7b3d12955096c795
+ +       0.3129 * (normalized) devid=da864a689e433b5e
+ +       0.3363 * (normalized) devid=c4a9b97bec0deec7
+ +      -0.3727 * (normalized) devid=ffdd93d674719bbc
+ +       0.3577 * (normalized) devid=11d70c1436d1ce27
+ +       0.2247 * (normalized) devid=4261a8320ddd09d0
+ +       0.31   * (normalized) devid=1d966fc8f0e98430
+ +       0.1909 * (normalized) devid=9f174fc0bd3480a6
+ +       0.5826 * (normalized) devid=d88a327ce250630
+ +       0.307  * (normalized) devid=9c19bb5d04be923e
+ +       0.1179 * (normalized) devid=790c227141314780
+ +      -1.4301 * (normalized) devid=bbe3002f6e378eed
+ +       0.6152 * (normalized) devid=6e85b338913ae764
+ +       0.3038 * (normalized) devid=d554e3b29fe24a3b
+ +       0.2513 * (normalized) devid=c35c6393398f7068
+ +      -1.3536 * (normalized) devid=4c3dfa2cea50e9bb
+ +       0.3512 * (normalized) devid=332d672c51091609
+ +       0.1554 * (normalized) devid=61d848e7503b5852
+ +      -0      * (normalized) devid=867fe59be043d779
+ +       0.5908 * (normalized) devid=a1f8f29e35209a42
+ +       0.4353 * (normalized) devid=4504da30b01769b7
+ +       0.4022 * (normalized) devid=7e4cfd066dafa944
+ +       0.3658 * (normalized) devid=9de8b4b98c575ea5
+ +       0.3698 * (normalized) devid=5a92d851bc704d
+ +       0.9801 * (normalized) devid=a6fb86ca165ca918
+ +      -1.6757 * (normalized) devid=65e49509039eb913
+ +       0.7368 * (normalized) devid=247e4508ec4521f9
+ +       0.7282 * (normalized) devid=6c3fa7f635a073f5
+ +       0.4035 * (normalized) devid=7caeb732fb3ad6af
+ +       0.1437 * (normalized) devid=344404a75543aaf0
+ +       0.6836 * (normalized) devid=0264ea70c8976793
+ +      -1.3786 * (normalized) devid=3c66f51dbc94d163
+ +      -1.7519 * (normalized) devid=6f2a6c95c065c7a3
+ +      -1.7222 * (normalized) devid=f25d48f8931ef23f
+ +      -0.979  * (normalized) devid=c43e0a23ab297d87
+ +       0.0452 * (normalized) devid=bd016d8f3093b6a4
+ +       0.2522 * (normalized) devid=867287031950897
+ +       0.7716 * (normalized) devid=a32d3af596578938
+ +       0.5019 * (normalized) devid=81410329db99223d
+ +       0.1555 * (normalized) devid=2f41118c2aee66ae
+ +      -1      * (normalized) devid=a208a7c4a26d8df7
+ +      -1      * (normalized) devid=d71847dfd6b46fcd
+ +      -0.1276 * (normalized) df_delay
+ +      -0.4976 * (normalized) df_saltos
+ +      -0.1391 * (normalized) ds
+ +       0.1237 * (normalized) dv_delay
+ +      -0.0919 * (normalized) dv_saltos
+ +      -0.1389 * (normalized) indice_en_prueba
+ +       0.0934 * (normalized) indice_intervalo
+ +      -0.0598 * (normalized) mood
+ +      -0.3218 * (normalized) ns
+ +      -0.2886 * (normalized) prueba_nro
+ +       0.2893 * (normalized) ram
+ +      -0.7254 * (normalized) sdk
+ +      -0.0233 * (normalized) st
+ +       0.7956 * (normalized) t_cpu
+ +      -0.0523 * (normalized) app_foreground=com.whatsapp
+ +      -0.0813 * (normalized) app_foreground=com.android.chrome
+ +      -0.125  * (normalized) app_foreground=org.pol.jmgo.qoesurveyor
+ +      -0.0149 * (normalized) app_foreground=com.android.vending
+ +      -0.18   * (normalized) app_foreground=com.twitter.android
+ +      -0.0612 * (normalized) app_foreground=com.netflix.mediaclient
+ +       1      * (normalized) app_foreground=android
+ +      -0.1918 * (normalized) app_foreground=com.sec.android.app.launcher
+ +       0.2522 * (normalized) app_foreground=com.android.settings
+ +      -0.1176 * (normalized) app_foreground=com.google.android.youtube
+ +       0.1806 * (normalized) app_foreground=com.android.launcher
+ +       0.1346 * (normalized) app_foreground=com.internet.speed.meter.lite
+ +       0      * (normalized) app_foreground=com.facebook.lite
+ +      -0.1995 * (normalized) app_foreground=com.facebook.katana
+ +       0      * (normalized) app_foreground=com.samsung.android.email.provider
+ +       0.6273 * (normalized) app_foreground=com.zerodesktop.appdetox.qualitytime
+ +       0      * (normalized) app_foreground=com.android.systemui
+ +      -0.1044 * (normalized) app_foreground=com.sec.android.app.sbrowser
+ +      -0.4201 * (normalized) app_foreground=com.spotify.music
+ +      -0.2695 * (normalized) app_foreground=com.ACP.ClinicalGuidelines
+ +       0.0116 * (normalized) app_foreground=uk.co.bbc.mundo
+ +       0.1554 * (normalized) app_foreground=com.google.android.apps.maps
+ +      -0      * (normalized) app_foreground=jp.konami.duellinks
+ +      -0.4301 * (normalized) app_foreground=com.lge.launcher2
+ +       0      * (normalized) app_foreground=com.musixmatch.android.lyrify
+ +      -0      * (normalized) app_foreground=com.supercell.clashofclans
+ +      -0.1137 * (normalized) app_foreground=org.mozilla.firefox
+ +       1.0143
+
+Number of kernel evaluations: 74309 (95.803% cached)
+
+Classifier for classes: 3, 4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1655 * (normalized) alejado
+ +       0.1472 * (normalized) battery_l
+ +      -0.1025 * (normalized) battery_t
+ +      -0.1136 * (normalized) bw
+ +       0.9658 * (normalized) devid=63958117e9438e16
+ +      -0.4477 * (normalized) devid=68af49bcc059f325
+ +       0.3234 * (normalized) devid=8e16d706819d2e0c
+ +       0.6704 * (normalized) devid=7bf44203a040cdc1
+ +      -0.9721 * (normalized) devid=94693d24cc813c3f
+ +       0.7871 * (normalized) devid=7b3d12955096c795
+ +      -0.964  * (normalized) devid=e2f3a59016564a22
+ +      -0.5665 * (normalized) devid=da864a689e433b5e
+ +      -0.7541 * (normalized) devid=ffdd93d674719bbc
+ +      -0.6142 * (normalized) devid=2e9b9b3b97476bf5
+ +      -0.9038 * (normalized) devid=1d966fc8f0e98430
+ +       0.2942 * (normalized) devid=9f174fc0bd3480a6
+ +       1.0832 * (normalized) devid=d88a327ce250630
+ +       0.2497 * (normalized) devid=9c19bb5d04be923e
+ +       0.953  * (normalized) devid=790c227141314780
+ +       0.8814 * (normalized) devid=bbe3002f6e378eed
+ +       1.4091 * (normalized) devid=e64bbee157aededc
+ +      -0.6227 * (normalized) devid=4c3dfa2cea50e9bb
+ +       0.8395 * (normalized) devid=332d672c51091609
+ +      -0      * (normalized) devid=61d848e7503b5852
+ +      -0.864  * (normalized) devid=867fe59be043d779
+ +       0.767  * (normalized) devid=4504da30b01769b7
+ +       0.9141 * (normalized) devid=7e4cfd066dafa944
+ +      -1.0256 * (normalized) devid=9de8b4b98c575ea5
+ +      -0.6061 * (normalized) devid=a6fb86ca165ca918
+ +      -0.9034 * (normalized) devid=65e49509039eb913
+ +       1.3931 * (normalized) devid=247e4508ec4521f9
+ +       0.7196 * (normalized) devid=7caeb732fb3ad6af
+ +       0.6551 * (normalized) devid=344404a75543aaf0
+ +      -0.0824 * (normalized) devid=0264ea70c8976793
+ +      -0.792  * (normalized) devid=3c66f51dbc94d163
+ +      -1      * (normalized) devid=dcceb1b848daf324
+ +      -1      * (normalized) devid=6f2a6c95c065c7a3
+ +      -1.0423 * (normalized) devid=f25d48f8931ef23f
+ +      -0.7499 * (normalized) devid=c43e0a23ab297d87
+ +       0.7875 * (normalized) devid=bd016d8f3093b6a4
+ +      -0      * (normalized) devid=867287031950897
+ +      -0.4698 * (normalized) devid=a32d3af596578938
+ +       0.6876 * (normalized) devid=2f41118c2aee66ae
+ +      -0      * (normalized) devid=d71847dfd6b46fcd
+ +       0.1202 * (normalized) df_delay
+ +      -0.4855 * (normalized) df_saltos
+ +      -0.8061 * (normalized) ds
+ +       0.2257 * (normalized) dv_delay
+ +      -0.3402 * (normalized) dv_saltos
+ +       0.1299 * (normalized) indice_en_prueba
+ +       0.1885 * (normalized) indice_intervalo
+ +       0.0071 * (normalized) mood
+ +      -0.0919 * (normalized) ns
+ +      -0.0157 * (normalized) prueba_nro
+ +      -0.5783 * (normalized) ram
+ +      -0.3369 * (normalized) sdk
+ +       0.0077 * (normalized) st
+ +       0.4255 * (normalized) t_cpu
+ +      -0.0971 * (normalized) app_foreground=com.whatsapp
+ +      -0.0186 * (normalized) app_foreground=com.android.chrome
+ +      -0.0729 * (normalized) app_foreground=org.pol.jmgo.qoesurveyor
+ +      -0.1326 * (normalized) app_foreground=com.android.vending
+ +      -0.5665 * (normalized) app_foreground=com.netflix.mediaclient
+ +      -0.3086 * (normalized) app_foreground=android
+ +      -0.2378 * (normalized) app_foreground=com.sec.android.app.launcher
+ +      -0.1609 * (normalized) app_foreground=com.google.android.youtube
+ +      -0.2125 * (normalized) app_foreground=com.android.launcher
+ +       0.208  * (normalized) app_foreground=com.facebook.katana
+ +       1.8108 * (normalized) app_foreground=com.zerodesktop.appdetox.qualitytime
+ +      -1      * (normalized) app_foreground=com.android.systemui
+ +      -1      * (normalized) app_foreground=org.khanacademy.android
+ +      -0      * (normalized) app_foreground=com.google.android.googlequicksearchbox
+ +       0.2497 * (normalized) app_foreground=jp.konami.duellinks
+ +      -0.1302 * (normalized) app_foreground=com.lge.launcher2
+ +      -0.1758 * (normalized) app_foreground=com.huawei.android.launcher
+ +      -0.864  * (normalized) app_foreground=com.adobe.reader
+ +      -0.1263 * (normalized) app_foreground=com.garmin.android.apps.connectmobile
+ +       1      * (normalized) app_foreground=com.android.incallui
+ +       0.0416 * (normalized) app_foreground=com.waze
+ +       1      * (normalized) app_foreground=net.oneplus.launcher
+ +       1      * (normalized) app_foreground=org.mozilla.firefox
+ +      -0.2062 * (normalized) app_foreground=com.android.launcher3
+ +       0.8653
+
+Number of kernel evaluations: 36041 (95.441% cached)
+
+Classifier for classes: 3, 5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.2157 * (normalized) alejado
+ +      -0.1403 * (normalized) battery_l
+ +      -0.1003 * (normalized) battery_t
+ +      -0.1235 * (normalized) bw
+ +      -1      * (normalized) devid=63958117e9438e16
+ +       0.9786 * (normalized) devid=2440f9791015c9aa
+ +       0.3036 * (normalized) devid=c8afba09e53d8531
+ +       0.4031 * (normalized) devid=90a72847e24050d1
+ +       0.3324 * (normalized) devid=22dee25d96b05f3e
+ +      -0.744  * (normalized) devid=68af49bcc059f325
+ +      -0.2773 * (normalized) devid=8e16d706819d2e0c
+ +       0.2626 * (normalized) devid=7bf44203a040cdc1
+ +       0.2488 * (normalized) devid=acf1f4860469c6fd
+ +      -0.9033 * (normalized) devid=94693d24cc813c3f
+ +       0.3044 * (normalized) devid=21499054c7994fc4
+ +       1      * (normalized) devid=7b3d12955096c795
+ +      -1      * (normalized) devid=e2f3a59016564a22
+ +       0.2893 * (normalized) devid=da864a689e433b5e
+ +       0.4996 * (normalized) devid=c4a9b97bec0deec7
+ +      -1.3677 * (normalized) devid=ffdd93d674719bbc
+ +       0.7595 * (normalized) devid=11d70c1436d1ce27
+ +       0.143  * (normalized) devid=4261a8320ddd09d0
+ +      -0.741  * (normalized) devid=2e9b9b3b97476bf5
+ +       0.6052 * (normalized) devid=1d966fc8f0e98430
+ +       0.1352 * (normalized) devid=9f174fc0bd3480a6
+ +       0.9544 * (normalized) devid=d88a327ce250630
+ +      -0.2188 * (normalized) devid=9c19bb5d04be923e
+ +       0.2883 * (normalized) devid=790c227141314780
+ +      -0.8074 * (normalized) devid=e64bbee157aededc
+ +       0.0506 * (normalized) devid=4192432e1cf42d52
+ +       0.7035 * (normalized) devid=6e85b338913ae764
+ +       0.399  * (normalized) devid=d554e3b29fe24a3b
+ +       0.3794 * (normalized) devid=c35c6393398f7068
+ +      -0.9055 * (normalized) devid=4c3dfa2cea50e9bb
+ +       0.5779 * (normalized) devid=332d672c51091609
+ +      -1.2795 * (normalized) devid=61d848e7503b5852
+ +      -0.1651 * (normalized) devid=867fe59be043d779
+ +       0.8771 * (normalized) devid=a1f8f29e35209a42
+ +       0.3374 * (normalized) devid=4504da30b01769b7
+ +       0.8663 * (normalized) devid=7e4cfd066dafa944
+ +      -1.1147 * (normalized) devid=9de8b4b98c575ea5
+ +       0.5697 * (normalized) devid=5a92d851bc704d
+ +       0.7543 * (normalized) devid=a6fb86ca165ca918
+ +      -1.338  * (normalized) devid=65e49509039eb913
+ +       1.1138 * (normalized) devid=247e4508ec4521f9
+ +      -0.3085 * (normalized) devid=6c3fa7f635a073f5
+ +       0.4343 * (normalized) devid=7caeb732fb3ad6af
+ +       0.3601 * (normalized) devid=344404a75543aaf0
+ +       1.5192 * (normalized) devid=0264ea70c8976793
+ +      -0.8994 * (normalized) devid=3c66f51dbc94d163
+ +      -1      * (normalized) devid=dcceb1b848daf324
+ +      -1      * (normalized) devid=6f2a6c95c065c7a3
+ +      -1.4908 * (normalized) devid=f25d48f8931ef23f
+ +      -0.9387 * (normalized) devid=c43e0a23ab297d87
+ +       0.4692 * (normalized) devid=bd016d8f3093b6a4
+ +      -0.6978 * (normalized) devid=867287031950897
+ +       1.0603 * (normalized) devid=a32d3af596578938
+ +       0.5859 * (normalized) devid=81410329db99223d
+ +       0.3279 * (normalized) devid=2f41118c2aee66ae
+ +      -0.6965 * (normalized) devid=d71847dfd6b46fcd
+ +      -0.5666 * (normalized) df_delay
+ +      -0.4883 * (normalized) df_saltos
+ +      -0.3235 * (normalized) ds
+ +       0.0818 * (normalized) dv_delay
+ +       0.0114 * (normalized) dv_saltos
+ +      -0.039  * (normalized) indice_en_prueba
+ +      -0.0076 * (normalized) indice_intervalo
+ +       0.5893 * (normalized) mood
+ +      -0.3723 * (normalized) ns
+ +       0.05   * (normalized) prueba_nro
+ +      -0.2884 * (normalized) ram
+ +      -1.1044 * (normalized) sdk
+ +      -0.0404 * (normalized) st
+ +       0.4407 * (normalized) t_cpu
+ +      -0.0445 * (normalized) app_foreground=com.whatsapp
+ +      -0.2685 * (normalized) app_foreground=com.android.chrome
+ +      -0.1061 * (normalized) app_foreground=org.pol.jmgo.qoesurveyor
+ +       0      * (normalized) app_foreground=com.twitter.android
+ +      -0.0842 * (normalized) app_foreground=com.netflix.mediaclient
+ +      -0.0175 * (normalized) app_foreground=android
+ +      -0.0256 * (normalized) app_foreground=com.sec.android.app.launcher
+ +      -0.1053 * (normalized) app_foreground=com.google.android.youtube
+ +       0      * (normalized) app_foreground=com.android.launcher
+ +       0.2488 * (normalized) app_foreground=com.internet.speed.meter.lite
+ +      -0      * (normalized) app_foreground=com.facebook.lite
+ +       0.146  * (normalized) app_foreground=com.facebook.katana
+ +       0.0812 * (normalized) app_foreground=com.android.vpndialogs
+ +       1      * (normalized) app_foreground=com.zerodesktop.appdetox.qualitytime
+ +      -0.1714 * (normalized) app_foreground=com.android.systemui
+ +      -0.356  * (normalized) app_foreground=org.khanacademy.android
+ +       1      * (normalized) app_foreground=com.google.android.apps.maps
+ +       0.7812 * (normalized) app_foreground=jp.konami.duellinks
+ +      -0.1412 * (normalized) app_foreground=com.lge.launcher2
+ +      -0.062  * (normalized) app_foreground=com.huawei.android.launcher
+ +      -0      * (normalized) app_foreground=com.google.android.apps.docs
+ +      -0      * (normalized) app_foreground=com.samsung.android.spay
+ +      -0.1651 * (normalized) app_foreground=com.adobe.reader
+ +      -0.1337 * (normalized) app_foreground=com.garmin.android.apps.connectmobile
+ +      -0      * (normalized) app_foreground=com.musixmatch.android.lyrify
+ +      -0      * (normalized) app_foreground=net.oneplus.launcher
+ +       0      * (normalized) app_foreground=com.supercell.clashofclans
+ +      -1.576  * (normalized) app_foreground=com.android.launcher3
+ +       1.1371
+
+Number of kernel evaluations: 92094 (97.034% cached)
+
+Classifier for classes: 4, 5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.8088 * (normalized) alejado
+ +      -1.4419 * (normalized) battery_l
+ +       0.4005 * (normalized) battery_t
+ +      -0.1248 * (normalized) bw
+ +      -1.5166 * (normalized) devid=63958117e9438e16
+ +       1.9405 * (normalized) devid=2440f9791015c9aa
+ +       0.3627 * (normalized) devid=c8afba09e53d8531
+ +       0.085  * (normalized) devid=90a72847e24050d1
+ +       0.3066 * (normalized) devid=22dee25d96b05f3e
+ +      -0.7653 * (normalized) devid=8e16d706819d2e0c
+ +       0.2133 * (normalized) devid=7bf44203a040cdc1
+ +       0.3801 * (normalized) devid=acf1f4860469c6fd
+ +      -0      * (normalized) devid=21499054c7994fc4
+ +      -0.0624 * (normalized) devid=7b3d12955096c795
+ +      -0.0974 * (normalized) devid=e2f3a59016564a22
+ +       0.8491 * (normalized) devid=da864a689e433b5e
+ +       0.8902 * (normalized) devid=c4a9b97bec0deec7
+ +      -0.8412 * (normalized) devid=ffdd93d674719bbc
+ +       0.7973 * (normalized) devid=11d70c1436d1ce27
+ +       0.5485 * (normalized) devid=4261a8320ddd09d0
+ +      -1      * (normalized) devid=2e9b9b3b97476bf5
+ +       0.6277 * (normalized) devid=1d966fc8f0e98430
+ +       0.1981 * (normalized) devid=9f174fc0bd3480a6
+ +       1.0569 * (normalized) devid=d88a327ce250630
+ +       0.1814 * (normalized) devid=9c19bb5d04be923e
+ +      -1.6344 * (normalized) devid=790c227141314780
+ +      -1.036  * (normalized) devid=bbe3002f6e378eed
+ +      -1.0167 * (normalized) devid=e64bbee157aededc
+ +       1.594  * (normalized) devid=6e85b338913ae764
+ +      -0.1611 * (normalized) devid=d554e3b29fe24a3b
+ +       0.146  * (normalized) devid=c35c6393398f7068
+ +      -1.2393 * (normalized) devid=4c3dfa2cea50e9bb
+ +      -1.8383 * (normalized) devid=332d672c51091609
+ +      -1.1853 * (normalized) devid=61d848e7503b5852
+ +       0      * (normalized) devid=867fe59be043d779
+ +       0.751  * (normalized) devid=a1f8f29e35209a42
+ +      -0.97   * (normalized) devid=4504da30b01769b7
+ +       0.896  * (normalized) devid=7e4cfd066dafa944
+ +      -0.1787 * (normalized) devid=9de8b4b98c575ea5
+ +       1      * (normalized) devid=5a92d851bc704d
+ +       0.9865 * (normalized) devid=a6fb86ca165ca918
+ +      -1      * (normalized) devid=65e49509039eb913
+ +       0.0847 * (normalized) devid=247e4508ec4521f9
+ +      -0.8084 * (normalized) devid=6c3fa7f635a073f5
+ +       0.1571 * (normalized) devid=7caeb732fb3ad6af
+ +      -0.0377 * (normalized) devid=344404a75543aaf0
+ +       1.5094 * (normalized) devid=0264ea70c8976793
+ +      -1      * (normalized) devid=f25d48f8931ef23f
+ +      -0.6371 * (normalized) devid=c43e0a23ab297d87
+ +       0.6689 * (normalized) devid=bd016d8f3093b6a4
+ +      -0.8094 * (normalized) devid=867287031950897
+ +       1.3142 * (normalized) devid=a32d3af596578938
+ +       1.1005 * (normalized) devid=81410329db99223d
+ +      -0      * (normalized) devid=2f41118c2aee66ae
+ +      -0.8104 * (normalized) devid=d71847dfd6b46fcd
+ +       0.0938 * (normalized) df_delay
+ +       0.5029 * (normalized) df_saltos
+ +      -0.1248 * (normalized) ds
+ +      -0.0886 * (normalized) dv_delay
+ +       0.1337 * (normalized) dv_saltos
+ +       0.2553 * (normalized) indice_en_prueba
+ +      -0.9272 * (normalized) indice_intervalo
+ +      -0.1737 * (normalized) mood
+ +      -0.4451 * (normalized) ns
+ +       0.5162 * (normalized) prueba_nro
+ +       0.9577 * (normalized) ram
+ +      -1.193  * (normalized) sdk
+ +      -0.1053 * (normalized) st
+ +       0.0935 * (normalized) t_cpu
+ +      -0.1576 * (normalized) app_foreground=com.whatsapp
+ +      -0.9064 * (normalized) app_foreground=com.android.chrome
+ +      -0.1153 * (normalized) app_foreground=org.pol.jmgo.qoesurveyor
+ +       1      * (normalized) app_foreground=com.android.vending
+ +      -0.1012 * (normalized) app_foreground=com.twitter.android
+ +      -0.0818 * (normalized) app_foreground=com.netflix.mediaclient
+ +       0.0278 * (normalized) app_foreground=com.sec.android.app.launcher
+ +       0.2025 * (normalized) app_foreground=com.android.settings
+ +      -0.0052 * (normalized) app_foreground=com.google.android.youtube
+ +       0.2347 * (normalized) app_foreground=com.android.launcher
+ +      -1      * (normalized) app_foreground=com.itau.latam.py.tarjetas
+ +       0.3801 * (normalized) app_foreground=com.internet.speed.meter.lite
+ +       0.9376 * (normalized) app_foreground=com.facebook.lite
+ +      -0.1163 * (normalized) app_foreground=com.facebook.katana
+ +      -0.3692 * (normalized) app_foreground=com.zerodesktop.appdetox.qualitytime
+ +       0.4028 * (normalized) app_foreground=com.juvomobileinc.tigoshop.py
+ +       0.3945 * (normalized) app_foreground=com.android.systemui
+ +      -0.814  * (normalized) app_foreground=com.sec.android.app.sbrowser
+ +      -0.1672 * (normalized) app_foreground=py.com.abc.abctv
+ +      -1.0595 * (normalized) app_foreground=com.google.android.googlequicksearchbox
+ +       1      * (normalized) app_foreground=com.google.android.apps.maps
+ +       0.9336 * (normalized) app_foreground=jp.konami.duellinks
+ +      -0.4926 * (normalized) app_foreground=com.lge.launcher2
+ +       0.0252 * (normalized) app_foreground=com.google.android.apps.docs
+ +       0      * (normalized) app_foreground=com.adobe.reader
+ +      -0.6861 * (normalized) app_foreground=com.android.incallui
+ +       0.3212 * (normalized) app_foreground=com.waze
+ +       0.309  * (normalized) app_foreground=com.musixmatch.android.lyrify
+ +      -0.6674 * (normalized) app_foreground=net.oneplus.launcher
+ +       0.779  * (normalized) app_foreground=com.google.android.gms
+ +       0.0291 * (normalized) app_foreground=com.android.phone
+ +       0.0037 * (normalized) app_foreground=com.jaraxa.todocoleccion
+ +      -0.241  * (normalized) app_foreground=org.mozilla.firefox
+ +       1.9387
+
+Number of kernel evaluations: 134287 (92.621% cached)
+
+
+
+Time taken to build model: 1.36 seconds
+
+Time taken to test model on training data: 0.08 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         602               64.7312 %
+Incorrectly Classified Instances       328               35.2688 %
+Kappa statistic                          0.4883
+Mean absolute error                      0.264 
+Root mean squared error                  0.3517
+Relative absolute error                 92.6355 %
+Root relative squared error             93.1944 %
+Total Number of Instances              930     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.505    0.036    0.610      0.505    0.553      0.511    0.853     0.447     1
+                 0.357    0.038    0.484      0.357    0.411      0.367    0.789     0.311     2
+                 0.393    0.072    0.482      0.393    0.433      0.350    0.756     0.331     3
+                 0.563    0.119    0.563      0.563    0.563      0.444    0.774     0.446     4
+                 0.859    0.239    0.747      0.859    0.799      0.618    0.835     0.725     5
+Weighted Avg.    0.647    0.150    0.632      0.647    0.636      0.508    0.808     0.543     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+  47   7  11   5  23 |   a = 1
+  13  30  11  10  20 |   b = 2
+  10  14  53  31  27 |   c = 3
+   2  10  23 112  52 |   d = 4
+   5   1  12  41 360 |   e = 5
+
+Time taken to perform cross-validation: 4.4 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         511               54.9462 %
+Incorrectly Classified Instances       419               45.0538 %
+Kappa statistic                          0.3428
+Mean absolute error                      0.2752
+Root mean squared error                  0.3673
+Relative absolute error                 96.566  %
+Root relative squared error             97.3241 %
+Total Number of Instances              930     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.409    0.042    0.521      0.409    0.458      0.409    0.777     0.339     1
+                 0.226    0.041    0.352      0.226    0.275      0.227    0.660     0.200     2
+                 0.259    0.109    0.287      0.259    0.272      0.156    0.608     0.206     3
+                 0.392    0.149    0.417      0.392    0.404      0.248    0.660     0.320     4
+                 0.814    0.299    0.690      0.814    0.747      0.513    0.783     0.667     5
+Weighted Avg.    0.549    0.191    0.526      0.549    0.533      0.368    0.720     0.451     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+  38   8  18   4  25 |   a = 1
+  13  19  21  12  19 |   b = 2
+  12  17  35  37  34 |   c = 3
+   4   9  33  78  75 |   d = 4
+   6   1  15  56 341 |   e = 5
+

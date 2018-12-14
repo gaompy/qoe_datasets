@@ -1,0 +1,274 @@
+
+Options: -I 0 -M 500 -H 50 -W 0.0 
+
+=== Classifier model (full training set) ===
+
+SimpleLogistic:
+
+Class 1 :
+2.22 + 
+[battery_l] * -0.01 +
+[devid=7b3d12955096c795] * -0.84 +
+[devid=e2f3a59016564a22] * 1.41 +
+[devid=da864a689e433b5e] * -0.85 +
+[devid=751666ecdd98bfd3] * 4.82 +
+[devid=ffdd93d674719bbc] * 1.26 +
+[devid=1d966fc8f0e98430] * 0.96 +
+[devid=9c19bb5d04be923e] * 1.48 +
+[devid=d554e3b29fe24a3b] * -0.88 +
+[devid=867fe59be043d779] * -0.92 +
+[devid=4504da30b01769b7] * -0.86 +
+[devid=247e4508ec4521f9] * -0.86 +
+[devid=7caeb732fb3ad6af] * -0.85 +
+[devid=344404a75543aaf0] * -0.48 +
+[devid=6f2a6c95c065c7a3] * 4    +
+[devid=f25d48f8931ef23f] * 0.93 +
+[devid=c43e0a23ab297d87] * 1.61 +
+[devid=867287031950897] * 0.77 +
+[devid=d71847dfd6b46fcd] * 0.89 +
+[df_delay] * -0 +
+[indice_en_prueba] * 0.03 +
+[mood] * 0.2  +
+[ns] * -0.86 +
+[t_cpu] * -0.02 +
+[app_foreground=com.android.chrome] * 0.81 +
+[app_foreground=com.android.vending] * -1.45 +
+[app_foreground=android] * -0.73 +
+[app_foreground=com.google.android.youtube] * -0.16 +
+[app_foreground=com.facebook.katana] * 1.53 +
+[app_foreground=com.android.systemui] * 1.05 +
+[app_foreground=org.telegram.plus] * 3.92 +
+[app_foreground=com.sec.android.app.sbrowser] * 1.81 +
+[app_foreground=com.spotify.music] * 1.24 +
+[app_foreground=com.sonyericsson.home] * 3.02 +
+[app_foreground=com.instagram.android] * 1.91 +
+[app_foreground=py.com.itau.tokpag] * 0.77
+
+Class 2 :
+-2.51 + 
+[devid=c8afba09e53d8531] * -0.89 +
+[devid=68af49bcc059f325] * 1.79 +
+[devid=7b3d12955096c795] * -0.85 +
+[devid=1d966fc8f0e98430] * -1.71 +
+[devid=d88a327ce250630] * -0.5 +
+[devid=9c19bb5d04be923e] * 0.61 +
+[devid=790c227141314780] * -0.83 +
+[devid=bbe3002f6e378eed] * 2.3  +
+[devid=4c3dfa2cea50e9bb] * 1.39 +
+[devid=61d848e7503b5852] * 0.55 +
+[devid=a6fb86ca165ca918] * -0.48 +
+[devid=65e49509039eb913] * 2.59 +
+[devid=247e4508ec4521f9] * -0.85 +
+[devid=7caeb732fb3ad6af] * -1.7 +
+[devid=344404a75543aaf0] * -1.66 +
+[devid=3c66f51dbc94d163] * 2.75 +
+[devid=6f2a6c95c065c7a3] * 2.56 +
+[devid=f25d48f8931ef23f] * 1.3  +
+[devid=c43e0a23ab297d87] * 0.5  +
+[devid=a32d3af596578938] * -0.84 +
+[devid=a208a7c4a26d8df7] * 4.31 +
+[devid=d71847dfd6b46fcd] * 1.34 +
+[indice_intervalo] * 0.01 +
+[ns] * 0.5  +
+[prueba_nro] * 0.05 +
+[t_cpu] * -0.02 +
+[app_foreground=com.android.vending] * 1.45 +
+[app_foreground=android] * -2.84 +
+[app_foreground=com.android.settings] * -0.89 +
+[app_foreground=com.facebook.katana] * 0.47 +
+[app_foreground=com.spotify.music] * 1.14 +
+[app_foreground=com.ACP.ClinicalGuidelines] * 1.59 +
+[app_foreground=com.lge.launcher2] * 0.96 +
+[app_foreground=net.oneplus.launcher] * -0.85 +
+[app_foreground=org.mozilla.firefox] * 2.13
+
+Class 3 :
+-4.49 + 
+[battery_l] * 0.01 +
+[devid=c8afba09e53d8531] * -1.76 +
+[devid=94693d24cc813c3f] * 2.4  +
+[devid=ffdd93d674719bbc] * 0.26 +
+[devid=2e9b9b3b97476bf5] * 1.27 +
+[devid=d88a327ce250630] * -2.61 +
+[devid=bbe3002f6e378eed] * -0.87 +
+[devid=332d672c51091609] * -0.86 +
+[devid=61d848e7503b5852] * 0.71 +
+[devid=4504da30b01769b7] * 0.73 +
+[devid=7e4cfd066dafa944] * -1.08 +
+[devid=9de8b4b98c575ea5] * 1.69 +
+[devid=65e49509039eb913] * 1.27 +
+[devid=247e4508ec4521f9] * -0.64 +
+[devid=7caeb732fb3ad6af] * -0.57 +
+[devid=3c66f51dbc94d163] * 2.63 +
+[devid=dcceb1b848daf324] * 2.4  +
+[devid=6f2a6c95c065c7a3] * 1.21 +
+[devid=c43e0a23ab297d87] * 0.53 +
+[devid=bd016d8f3093b6a4] * -0.88 +
+[dv_delay] * 0    +
+[indice_en_prueba] * -0.07 +
+[mood] * -0.4 +
+[sdk] * 0.23 +
+[app_foreground=com.twitter.android] * -1.54 +
+[app_foreground=com.zerodesktop.appdetox.qualitytime] * -1.04 +
+[app_foreground=com.sec.android.app.sbrowser] * -0.88 +
+[app_foreground=org.khanacademy.android] * 3.4  +
+[app_foreground=jp.konami.duellinks] * -0.94 +
+[app_foreground=com.lge.launcher2] * 0.38 +
+[app_foreground=com.huawei.android.launcher] * 1.62 +
+[app_foreground=com.adobe.reader] * 1.57 +
+[app_foreground=com.garmin.android.apps.connectmobile] * 1.47 +
+[app_foreground=net.oneplus.launcher] * -0.87 +
+[app_foreground=com.sonelli.juicessh] * 1.03 +
+[app_foreground=org.mozilla.firefox] * -0.88 +
+[app_foreground=com.android.launcher3] * 3.58
+
+Class 4 :
+-1.4 + 
+[battery_l] * 0.01 +
+[devid=63958117e9438e16] * 0.5  +
+[devid=c8afba09e53d8531] * -1.87 +
+[devid=8e16d706819d2e0c] * 0.27 +
+[devid=7bf44203a040cdc1] * 0.71 +
+[devid=7b3d12955096c795] * 0.66 +
+[devid=da864a689e433b5e] * -0.69 +
+[devid=2e9b9b3b97476bf5] * 1.06 +
+[devid=1d966fc8f0e98430] * -0.64 +
+[devid=790c227141314780] * 2.28 +
+[devid=bbe3002f6e378eed] * 2.58 +
+[devid=e64bbee157aededc] * 2.49 +
+[devid=332d672c51091609] * 2.29 +
+[devid=61d848e7503b5852] * 0.39 +
+[devid=867fe59be043d779] * -0.87 +
+[devid=4504da30b01769b7] * 0.58 +
+[devid=247e4508ec4521f9] * 0.74 +
+[devid=6c3fa7f635a073f5] * 1.02 +
+[devid=344404a75543aaf0] * 0.59 +
+[devid=f25d48f8931ef23f] * -0.4 +
+[devid=867287031950897] * 0.45 +
+[devid=a32d3af596578938] * -1.69 +
+[devid=2f41118c2aee66ae] * 1.1  +
+[indice_en_prueba] * -0.03 +
+[prueba_nro] * -0.07 +
+[ram] * -0 +
+[st] * 0.19 +
+[t_cpu] * 0.01 +
+[app_foreground=com.whatsapp] * 0.29 +
+[app_foreground=com.android.chrome] * 0.81 +
+[app_foreground=org.pol.jmgo.qoesurveyor] * 0.3  +
+[app_foreground=com.netflix.mediaclient] * -0.85 +
+[app_foreground=com.itau.latam.py.tarjetas] * 2.41 +
+[app_foreground=com.zerodesktop.appdetox.qualitytime] * 1.43 +
+[app_foreground=com.android.systemui] * -0.94 +
+[app_foreground=py.com.abc.abctv] * 1.47 +
+[app_foreground=com.google.android.googlequicksearchbox] * 1.63 +
+[app_foreground=com.android.incallui] * 2.41 +
+[app_foreground=net.oneplus.launcher] * 0.84 +
+[app_foreground=org.mozilla.firefox] * 1.3 
+
+Class 5 :
+-0.21 + 
+[devid=63958117e9438e16] * -2.21 +
+[devid=2440f9791015c9aa] * 3.08 +
+[devid=22dee25d96b05f3e] * 2.06 +
+[devid=8e16d706819d2e0c] * -1.48 +
+[devid=e2f3a59016564a22] * -1.1 +
+[devid=c4a9b97bec0deec7] * 1.23 +
+[devid=ffdd93d674719bbc] * -1.61 +
+[devid=11d70c1436d1ce27] * 1.58 +
+[devid=4261a8320ddd09d0] * 1.51 +
+[devid=e64bbee157aededc] * -1.05 +
+[devid=6e85b338913ae764] * 3.85 +
+[devid=4c3dfa2cea50e9bb] * -2.45 +
+[devid=61d848e7503b5852] * -1.1 +
+[devid=a1f8f29e35209a42] * 1.67 +
+[devid=5a92d851bc704d] * 2.27 +
+[devid=65e49509039eb913] * -1.09 +
+[devid=0264ea70c8976793] * 0.58 +
+[devid=6f2a6c95c065c7a3] * -0.96 +
+[devid=f25d48f8931ef23f] * -2.83 +
+[devid=c43e0a23ab297d87] * -1.8 +
+[devid=867287031950897] * -0.98 +
+[devid=a32d3af596578938] * 1.27 +
+[devid=81410329db99223d] * 2.67 +
+[devid=d71847dfd6b46fcd] * -1.02 +
+[t_cpu] * 0.04 +
+[app_foreground=com.android.chrome] * -0.67 +
+[app_foreground=org.pol.jmgo.qoesurveyor] * -0.24 +
+[app_foreground=com.facebook.lite] * 1.43 +
+[app_foreground=com.zerodesktop.appdetox.qualitytime] * 1.28 +
+[app_foreground=com.google.android.apps.maps] * 2.84 +
+[app_foreground=com.musixmatch.android.lyrify] * 1.69 +
+[app_foreground=com.supercell.clashofclans] * 1.09
+
+
+Time taken to build model: 1.48 seconds
+
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         594               63.871  %
+Incorrectly Classified Instances       336               36.129  %
+Kappa statistic                          0.4664
+Mean absolute error                      0.1973
+Root mean squared error                  0.3041
+Relative absolute error                 69.2236 %
+Root relative squared error             80.586  %
+Total Number of Instances              930     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.484    0.026    0.672      0.484    0.563      0.531    0.913     0.613     1
+                 0.369    0.027    0.574      0.369    0.449      0.419    0.882     0.463     2
+                 0.422    0.072    0.500      0.422    0.458      0.377    0.843     0.522     3
+                 0.467    0.109    0.538      0.467    0.500      0.377    0.846     0.619     4
+                 0.878    0.301    0.705      0.878    0.782      0.578    0.907     0.904     5
+Weighted Avg.    0.639    0.175    0.624      0.639    0.623      0.487    0.883     0.719     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+  45   6  11   6  25 |   a = 1
+  11  31  10  10  22 |   b = 2
+   7   9  57  26  36 |   c = 3
+   2   7  26  93  71 |   d = 4
+   2   1  10  38 368 |   e = 5
+
+Time taken to perform cross-validation: 5.89 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         509               54.7312 %
+Incorrectly Classified Instances       421               45.2688 %
+Kappa statistic                          0.3226
+Mean absolute error                      0.2239
+Root mean squared error                  0.3392
+Relative absolute error                 78.5612 %
+Root relative squared error             89.896  %
+Total Number of Instances              930     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.387    0.041    0.514      0.387    0.442      0.394    0.824     0.435     1
+                 0.262    0.044    0.373      0.262    0.308      0.257    0.761     0.229     2
+                 0.222    0.064    0.370      0.222    0.278      0.197    0.716     0.289     3
+                 0.362    0.133    0.426      0.362    0.391      0.244    0.737     0.446     4
+                 0.833    0.395    0.633      0.833    0.720      0.443    0.843     0.831     5
+Weighted Avg.    0.547    0.224    0.515      0.547    0.520      0.343    0.793     0.576     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+  36  11   9   6  31 |   a = 1
+  15  22   7   8  32 |   b = 2
+  10  15  30  31  49 |   c = 3
+   5   9  23  72  90 |   d = 4
+   4   2  12  52 349 |   e = 5
+

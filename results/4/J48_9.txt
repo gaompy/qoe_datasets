@@ -1,0 +1,717 @@
+
+Options: -C 0.25 -M 2 
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+t_cpu <= 0.493667
+|   df_saltos <= 1.4
+|   |   ram <= 620.5: 5 (4.0/2.0)
+|   |   ram > 620.5: 1 (5.0/1.0)
+|   df_saltos > 1.4
+|   |   battery_t <= 36.533333
+|   |   |   devid = 63958117e9438e16: 2 (0.0)
+|   |   |   devid = 2440f9791015c9aa: 2 (0.0)
+|   |   |   devid = c8afba09e53d8531: 2 (0.0)
+|   |   |   devid = 90a72847e24050d1: 2 (0.0)
+|   |   |   devid = 22dee25d96b05f3e: 2 (0.0)
+|   |   |   devid = 68af49bcc059f325: 2 (3.0/1.0)
+|   |   |   devid = 8e16d706819d2e0c: 2 (0.0)
+|   |   |   devid = 7bf44203a040cdc1: 2 (0.0)
+|   |   |   devid = acf1f4860469c6fd: 2 (0.0)
+|   |   |   devid = 94693d24cc813c3f: 2 (0.0)
+|   |   |   devid = 21499054c7994fc4: 2 (0.0)
+|   |   |   devid = 7b3d12955096c795: 2 (0.0)
+|   |   |   devid = e2f3a59016564a22: 2 (0.0)
+|   |   |   devid = da864a689e433b5e: 2 (0.0)
+|   |   |   devid = 751666ecdd98bfd3: 2 (0.0)
+|   |   |   devid = c4a9b97bec0deec7: 2 (0.0)
+|   |   |   devid = ffdd93d674719bbc: 2 (0.0)
+|   |   |   devid = 11d70c1436d1ce27: 2 (0.0)
+|   |   |   devid = 4261a8320ddd09d0: 2 (0.0)
+|   |   |   devid = 2e9b9b3b97476bf5: 2 (0.0)
+|   |   |   devid = 1d966fc8f0e98430: 2 (0.0)
+|   |   |   devid = 9f174fc0bd3480a6: 2 (0.0)
+|   |   |   devid = d88a327ce250630: 2 (0.0)
+|   |   |   devid = 9c19bb5d04be923e: 2 (0.0)
+|   |   |   devid = 790c227141314780: 2 (0.0)
+|   |   |   devid = bbe3002f6e378eed: 2 (0.0)
+|   |   |   devid = e64bbee157aededc: 2 (0.0)
+|   |   |   devid = 4192432e1cf42d52: 2 (0.0)
+|   |   |   devid = 6e85b338913ae764: 2 (0.0)
+|   |   |   devid = d554e3b29fe24a3b: 2 (0.0)
+|   |   |   devid = c35c6393398f7068: 2 (0.0)
+|   |   |   devid = 4c3dfa2cea50e9bb: 2 (0.0)
+|   |   |   devid = 332d672c51091609: 2 (0.0)
+|   |   |   devid = 61d848e7503b5852: 2 (0.0)
+|   |   |   devid = 867fe59be043d779: 2 (0.0)
+|   |   |   devid = a1f8f29e35209a42: 2 (0.0)
+|   |   |   devid = 4504da30b01769b7: 2 (0.0)
+|   |   |   devid = 7e4cfd066dafa944: 2 (0.0)
+|   |   |   devid = 9de8b4b98c575ea5: 2 (0.0)
+|   |   |   devid = 5a92d851bc704d: 2 (0.0)
+|   |   |   devid = a6fb86ca165ca918: 2 (0.0)
+|   |   |   devid = 65e49509039eb913: 2 (0.0)
+|   |   |   devid = 247e4508ec4521f9: 2 (0.0)
+|   |   |   devid = 6c3fa7f635a073f5: 2 (0.0)
+|   |   |   devid = 7caeb732fb3ad6af: 2 (0.0)
+|   |   |   devid = 344404a75543aaf0: 2 (0.0)
+|   |   |   devid = 0264ea70c8976793: 2 (0.0)
+|   |   |   devid = 3c66f51dbc94d163: 2 (0.0)
+|   |   |   devid = dcceb1b848daf324: 2 (0.0)
+|   |   |   devid = 6f2a6c95c065c7a3: 2 (0.0)
+|   |   |   devid = f25d48f8931ef23f: 2 (0.0)
+|   |   |   devid = c43e0a23ab297d87
+|   |   |   |   indice_en_prueba <= 4
+|   |   |   |   |   df_delay <= 127.666667: 1 (3.0)
+|   |   |   |   |   df_delay > 127.666667: 4 (2.0)
+|   |   |   |   indice_en_prueba > 4
+|   |   |   |   |   t_cpu <= 0.367333: 1 (3.0/1.0)
+|   |   |   |   |   t_cpu > 0.367333: 2 (8.0)
+|   |   |   devid = bd016d8f3093b6a4: 2 (0.0)
+|   |   |   devid = 867287031950897: 2 (0.0)
+|   |   |   devid = a32d3af596578938: 2 (0.0)
+|   |   |   devid = 81410329db99223d: 2 (0.0)
+|   |   |   devid = 2f41118c2aee66ae: 2 (0.0)
+|   |   |   devid = a208a7c4a26d8df7: 2 (0.0)
+|   |   |   devid = d71847dfd6b46fcd: 2 (0.0)
+|   |   battery_t > 36.533333
+|   |   |   alejado <= 65888: 3 (5.0/1.0)
+|   |   |   alejado > 65888: 1 (20.0/5.0)
+t_cpu > 0.493667
+|   devid = 63958117e9438e16
+|   |   bw <= 629095.674967: 4 (6.0/2.0)
+|   |   bw > 629095.674967: 1 (3.0/2.0)
+|   devid = 2440f9791015c9aa: 5 (7.0)
+|   devid = c8afba09e53d8531: 5 (11.0/1.0)
+|   devid = 90a72847e24050d1: 5 (1.0)
+|   devid = 22dee25d96b05f3e: 5 (15.0)
+|   devid = 68af49bcc059f325: 5 (0.0)
+|   devid = 8e16d706819d2e0c
+|   |   dv_delay <= 83
+|   |   |   t_cpu <= 55.5
+|   |   |   |   bw <= 2276.236187
+|   |   |   |   |   st <= 3.5
+|   |   |   |   |   |   mood <= 3.5: 3 (3.0/1.0)
+|   |   |   |   |   |   mood > 3.5
+|   |   |   |   |   |   |   battery_t <= 33.7: 3 (2.0)
+|   |   |   |   |   |   |   battery_t > 33.7
+|   |   |   |   |   |   |   |   indice_en_prueba <= 5: 4 (3.0)
+|   |   |   |   |   |   |   |   indice_en_prueba > 5
+|   |   |   |   |   |   |   |   |   ram <= 806.333333: 5 (3.0)
+|   |   |   |   |   |   |   |   |   ram > 806.333333: 4 (6.0/3.0)
+|   |   |   |   |   st > 3.5: 4 (4.0)
+|   |   |   |   bw > 2276.236187
+|   |   |   |   |   ns <= 3.338462
+|   |   |   |   |   |   battery_l <= 76
+|   |   |   |   |   |   |   alejado <= 115283: 5 (2.0)
+|   |   |   |   |   |   |   alejado > 115283: 4 (2.0)
+|   |   |   |   |   |   battery_l > 76: 5 (4.0)
+|   |   |   |   |   ns > 3.338462: 4 (3.0/1.0)
+|   |   |   t_cpu > 55.5: 5 (6.0)
+|   |   dv_delay > 83
+|   |   |   indice_en_prueba <= 6
+|   |   |   |   app_foreground = com.whatsapp: 3 (0.0)
+|   |   |   |   app_foreground = com.android.chrome: 3 (0.0)
+|   |   |   |   app_foreground = org.pol.jmgo.qoesurveyor: 1 (3.0/2.0)
+|   |   |   |   app_foreground = com.android.vending: 3 (0.0)
+|   |   |   |   app_foreground = com.twitter.android: 3 (0.0)
+|   |   |   |   app_foreground = com.netflix.mediaclient: 3 (0.0)
+|   |   |   |   app_foreground = android: 3 (0.0)
+|   |   |   |   app_foreground = com.sec.android.app.launcher: 3 (0.0)
+|   |   |   |   app_foreground = com.android.settings: 3 (0.0)
+|   |   |   |   app_foreground = com.google.android.youtube
+|   |   |   |   |   indice_en_prueba <= 1: 3 (4.0)
+|   |   |   |   |   indice_en_prueba > 1
+|   |   |   |   |   |   alejado <= 634449: 4 (8.0/2.0)
+|   |   |   |   |   |   alejado > 634449: 3 (2.0/1.0)
+|   |   |   |   app_foreground = com.android.launcher: 2 (6.0/2.0)
+|   |   |   |   app_foreground = com.itau.latam.py.tarjetas: 3 (0.0)
+|   |   |   |   app_foreground = com.internet.speed.meter.lite: 3 (0.0)
+|   |   |   |   app_foreground = com.facebook.lite: 3 (0.0)
+|   |   |   |   app_foreground = com.facebook.katana: 3 (0.0)
+|   |   |   |   app_foreground = com.android.vpndialogs: 3 (0.0)
+|   |   |   |   app_foreground = com.samsung.android.email.provider: 3 (0.0)
+|   |   |   |   app_foreground = com.zerodesktop.appdetox.qualitytime: 3 (0.0)
+|   |   |   |   app_foreground = com.juvomobileinc.tigoshop.py: 3 (0.0)
+|   |   |   |   app_foreground = com.android.systemui: 3 (0.0)
+|   |   |   |   app_foreground = org.telegram.plus: 3 (0.0)
+|   |   |   |   app_foreground = com.sec.android.app.sbrowser: 3 (0.0)
+|   |   |   |   app_foreground = com.spotify.music: 3 (0.0)
+|   |   |   |   app_foreground = com.facebook.moments: 3 (0.0)
+|   |   |   |   app_foreground = com.ACP.ClinicalGuidelines: 3 (0.0)
+|   |   |   |   app_foreground = py.com.abc.abctv: 3 (0.0)
+|   |   |   |   app_foreground = uk.co.bbc.mundo: 3 (0.0)
+|   |   |   |   app_foreground = org.khanacademy.android: 3 (0.0)
+|   |   |   |   app_foreground = com.adobe.psmobile: 3 (0.0)
+|   |   |   |   app_foreground = com.samsung.android.incallui: 3 (0.0)
+|   |   |   |   app_foreground = com.scdgroup.app.englishspeakvocal: 3 (0.0)
+|   |   |   |   app_foreground = com.google.android.googlequicksearchbox: 3 (0.0)
+|   |   |   |   app_foreground = com.google.android.apps.maps: 3 (0.0)
+|   |   |   |   app_foreground = jp.konami.duellinks: 3 (0.0)
+|   |   |   |   app_foreground = com.lge.launcher2: 3 (0.0)
+|   |   |   |   app_foreground = com.huawei.android.launcher: 3 (0.0)
+|   |   |   |   app_foreground = com.google.android.apps.docs: 3 (0.0)
+|   |   |   |   app_foreground = com.samsung.android.spay: 3 (0.0)
+|   |   |   |   app_foreground = com.adobe.reader: 3 (0.0)
+|   |   |   |   app_foreground = com.garmin.android.apps.connectmobile: 3 (0.0)
+|   |   |   |   app_foreground = com.android.incallui: 3 (0.0)
+|   |   |   |   app_foreground = com.sonyericsson.home: 3 (0.0)
+|   |   |   |   app_foreground = com.waze: 3 (0.0)
+|   |   |   |   app_foreground = com.musixmatch.android.lyrify: 3 (0.0)
+|   |   |   |   app_foreground = net.oneplus.launcher: 3 (0.0)
+|   |   |   |   app_foreground = com.google.android.gms: 3 (0.0)
+|   |   |   |   app_foreground = com.android.phone: 3 (0.0)
+|   |   |   |   app_foreground = com.jaraxa.todocoleccion: 3 (0.0)
+|   |   |   |   app_foreground = com.supercell.clashofclans: 3 (0.0)
+|   |   |   |   app_foreground = com.sonelli.juicessh: 3 (0.0)
+|   |   |   |   app_foreground = com.instagram.android: 3 (0.0)
+|   |   |   |   app_foreground = py.com.itau.tokpag: 3 (0.0)
+|   |   |   |   app_foreground = org.mozilla.firefox: 3 (0.0)
+|   |   |   |   app_foreground = com.android.launcher3: 3 (0.0)
+|   |   |   |   app_foreground = com.amazon.avod.thirdpartyclient: 3 (0.0)
+|   |   |   indice_en_prueba > 6
+|   |   |   |   df_saltos <= 1.25: 1 (8.0/4.0)
+|   |   |   |   df_saltos > 1.25
+|   |   |   |   |   alejado <= 214132: 2 (4.0)
+|   |   |   |   |   alejado > 214132
+|   |   |   |   |   |   alejado <= 216768: 1 (4.0)
+|   |   |   |   |   |   alejado > 216768: 2 (2.0)
+|   devid = 7bf44203a040cdc1
+|   |   alejado <= 201408: 4 (3.0/1.0)
+|   |   alejado > 201408: 5 (5.0/1.0)
+|   devid = acf1f4860469c6fd: 5 (1.0)
+|   devid = 94693d24cc813c3f: 3 (1.0)
+|   devid = 21499054c7994fc4: 5 (3.0)
+|   devid = 7b3d12955096c795
+|   |   df_saltos <= 1.548348: 4 (4.0)
+|   |   df_saltos > 1.548348
+|   |   |   ram <= 405.75
+|   |   |   |   prueba_nro <= 2: 5 (4.0)
+|   |   |   |   prueba_nro > 2
+|   |   |   |   |   bw <= 1260606.060606
+|   |   |   |   |   |   indice_intervalo <= 8: 5 (4.0)
+|   |   |   |   |   |   indice_intervalo > 8: 4 (2.0)
+|   |   |   |   |   bw > 1260606.060606: 4 (2.0)
+|   |   |   ram > 405.75: 3 (3.0/1.0)
+|   devid = e2f3a59016564a22
+|   |   alejado <= 14822: 4 (2.0/1.0)
+|   |   alejado > 14822
+|   |   |   alejado <= 16347: 2 (2.0/1.0)
+|   |   |   alejado > 16347: 1 (3.0/1.0)
+|   devid = da864a689e433b5e: 5 (20.0/4.0)
+|   devid = 751666ecdd98bfd3: 1 (1.0)
+|   devid = c4a9b97bec0deec7: 5 (6.0)
+|   devid = ffdd93d674719bbc
+|   |   battery_l <= 88.333333
+|   |   |   ns <= 3: 4 (2.0/1.0)
+|   |   |   ns > 3
+|   |   |   |   bw <= 117633.219621
+|   |   |   |   |   indice_en_prueba <= 4: 3 (4.0/1.0)
+|   |   |   |   |   indice_en_prueba > 4: 1 (8.0/1.0)
+|   |   |   |   bw > 117633.219621: 2 (4.0/2.0)
+|   |   battery_l > 88.333333
+|   |   |   app_foreground = com.whatsapp: 3 (2.0/1.0)
+|   |   |   app_foreground = com.android.chrome: 3 (0.0)
+|   |   |   app_foreground = org.pol.jmgo.qoesurveyor: 4 (3.0)
+|   |   |   app_foreground = com.android.vending: 3 (0.0)
+|   |   |   app_foreground = com.twitter.android: 3 (0.0)
+|   |   |   app_foreground = com.netflix.mediaclient: 3 (0.0)
+|   |   |   app_foreground = android: 3 (0.0)
+|   |   |   app_foreground = com.sec.android.app.launcher: 3 (1.0)
+|   |   |   app_foreground = com.android.settings: 3 (0.0)
+|   |   |   app_foreground = com.google.android.youtube: 3 (6.0/2.0)
+|   |   |   app_foreground = com.android.launcher: 3 (0.0)
+|   |   |   app_foreground = com.itau.latam.py.tarjetas: 3 (0.0)
+|   |   |   app_foreground = com.internet.speed.meter.lite: 3 (0.0)
+|   |   |   app_foreground = com.facebook.lite: 3 (0.0)
+|   |   |   app_foreground = com.facebook.katana: 3 (0.0)
+|   |   |   app_foreground = com.android.vpndialogs: 3 (0.0)
+|   |   |   app_foreground = com.samsung.android.email.provider: 3 (0.0)
+|   |   |   app_foreground = com.zerodesktop.appdetox.qualitytime: 4 (2.0/1.0)
+|   |   |   app_foreground = com.juvomobileinc.tigoshop.py: 3 (0.0)
+|   |   |   app_foreground = com.android.systemui: 3 (0.0)
+|   |   |   app_foreground = org.telegram.plus: 3 (0.0)
+|   |   |   app_foreground = com.sec.android.app.sbrowser: 3 (0.0)
+|   |   |   app_foreground = com.spotify.music: 3 (0.0)
+|   |   |   app_foreground = com.facebook.moments: 3 (0.0)
+|   |   |   app_foreground = com.ACP.ClinicalGuidelines: 3 (0.0)
+|   |   |   app_foreground = py.com.abc.abctv: 3 (0.0)
+|   |   |   app_foreground = uk.co.bbc.mundo: 3 (0.0)
+|   |   |   app_foreground = org.khanacademy.android: 3 (0.0)
+|   |   |   app_foreground = com.adobe.psmobile: 3 (0.0)
+|   |   |   app_foreground = com.samsung.android.incallui: 3 (0.0)
+|   |   |   app_foreground = com.scdgroup.app.englishspeakvocal: 3 (0.0)
+|   |   |   app_foreground = com.google.android.googlequicksearchbox: 3 (0.0)
+|   |   |   app_foreground = com.google.android.apps.maps: 3 (0.0)
+|   |   |   app_foreground = jp.konami.duellinks: 3 (0.0)
+|   |   |   app_foreground = com.lge.launcher2: 3 (0.0)
+|   |   |   app_foreground = com.huawei.android.launcher: 3 (0.0)
+|   |   |   app_foreground = com.google.android.apps.docs: 3 (0.0)
+|   |   |   app_foreground = com.samsung.android.spay: 3 (0.0)
+|   |   |   app_foreground = com.adobe.reader: 3 (0.0)
+|   |   |   app_foreground = com.garmin.android.apps.connectmobile: 3 (0.0)
+|   |   |   app_foreground = com.android.incallui: 3 (0.0)
+|   |   |   app_foreground = com.sonyericsson.home: 3 (0.0)
+|   |   |   app_foreground = com.waze: 3 (0.0)
+|   |   |   app_foreground = com.musixmatch.android.lyrify: 3 (0.0)
+|   |   |   app_foreground = net.oneplus.launcher: 3 (0.0)
+|   |   |   app_foreground = com.google.android.gms: 3 (0.0)
+|   |   |   app_foreground = com.android.phone: 3 (0.0)
+|   |   |   app_foreground = com.jaraxa.todocoleccion: 3 (0.0)
+|   |   |   app_foreground = com.supercell.clashofclans: 3 (0.0)
+|   |   |   app_foreground = com.sonelli.juicessh: 3 (0.0)
+|   |   |   app_foreground = com.instagram.android: 3 (0.0)
+|   |   |   app_foreground = py.com.itau.tokpag: 3 (0.0)
+|   |   |   app_foreground = org.mozilla.firefox: 3 (0.0)
+|   |   |   app_foreground = com.android.launcher3: 3 (0.0)
+|   |   |   app_foreground = com.amazon.avod.thirdpartyclient: 3 (0.0)
+|   devid = 11d70c1436d1ce27: 5 (5.0)
+|   devid = 4261a8320ddd09d0: 5 (2.0)
+|   devid = 2e9b9b3b97476bf5: 3 (3.0/1.0)
+|   devid = 1d966fc8f0e98430
+|   |   indice_intervalo <= 3
+|   |   |   bw <= 32461.528495: 1 (2.0)
+|   |   |   bw > 32461.528495: 3 (2.0)
+|   |   indice_intervalo > 3: 5 (23.0/4.0)
+|   devid = 9f174fc0bd3480a6: 5 (3.0/1.0)
+|   devid = d88a327ce250630
+|   |   alejado <= 665376: 5 (60.0/17.0)
+|   |   alejado > 665376: 4 (7.0/1.0)
+|   devid = 9c19bb5d04be923e
+|   |   mood <= 3.5
+|   |   |   battery_l <= 83: 2 (2.0)
+|   |   |   battery_l > 83: 1 (9.0/1.0)
+|   |   mood > 3.5
+|   |   |   app_foreground = com.whatsapp: 5 (1.0)
+|   |   |   app_foreground = com.android.chrome
+|   |   |   |   battery_l <= 87: 3 (2.0/1.0)
+|   |   |   |   battery_l > 87: 4 (5.0)
+|   |   |   app_foreground = org.pol.jmgo.qoesurveyor: 5 (1.0)
+|   |   |   app_foreground = com.android.vending: 5 (0.0)
+|   |   |   app_foreground = com.twitter.android: 5 (0.0)
+|   |   |   app_foreground = com.netflix.mediaclient: 5 (0.0)
+|   |   |   app_foreground = android: 5 (0.0)
+|   |   |   app_foreground = com.sec.android.app.launcher: 5 (0.0)
+|   |   |   app_foreground = com.android.settings: 5 (0.0)
+|   |   |   app_foreground = com.google.android.youtube
+|   |   |   |   st <= 3.5: 5 (2.0)
+|   |   |   |   st > 3.5: 3 (7.0/2.0)
+|   |   |   app_foreground = com.android.launcher: 5 (0.0)
+|   |   |   app_foreground = com.itau.latam.py.tarjetas: 5 (0.0)
+|   |   |   app_foreground = com.internet.speed.meter.lite: 5 (0.0)
+|   |   |   app_foreground = com.facebook.lite: 5 (0.0)
+|   |   |   app_foreground = com.facebook.katana: 5 (0.0)
+|   |   |   app_foreground = com.android.vpndialogs: 5 (0.0)
+|   |   |   app_foreground = com.samsung.android.email.provider: 5 (0.0)
+|   |   |   app_foreground = com.zerodesktop.appdetox.qualitytime: 5 (0.0)
+|   |   |   app_foreground = com.juvomobileinc.tigoshop.py: 5 (0.0)
+|   |   |   app_foreground = com.android.systemui: 5 (0.0)
+|   |   |   app_foreground = org.telegram.plus: 5 (0.0)
+|   |   |   app_foreground = com.sec.android.app.sbrowser: 5 (0.0)
+|   |   |   app_foreground = com.spotify.music: 5 (0.0)
+|   |   |   app_foreground = com.facebook.moments: 5 (0.0)
+|   |   |   app_foreground = com.ACP.ClinicalGuidelines: 5 (0.0)
+|   |   |   app_foreground = py.com.abc.abctv: 5 (0.0)
+|   |   |   app_foreground = uk.co.bbc.mundo: 5 (0.0)
+|   |   |   app_foreground = org.khanacademy.android: 5 (0.0)
+|   |   |   app_foreground = com.adobe.psmobile: 5 (0.0)
+|   |   |   app_foreground = com.samsung.android.incallui: 5 (0.0)
+|   |   |   app_foreground = com.scdgroup.app.englishspeakvocal: 5 (0.0)
+|   |   |   app_foreground = com.google.android.googlequicksearchbox: 5 (0.0)
+|   |   |   app_foreground = com.google.android.apps.maps: 5 (4.0)
+|   |   |   app_foreground = jp.konami.duellinks: 5 (5.0/1.0)
+|   |   |   app_foreground = com.lge.launcher2: 5 (0.0)
+|   |   |   app_foreground = com.huawei.android.launcher: 5 (0.0)
+|   |   |   app_foreground = com.google.android.apps.docs: 5 (0.0)
+|   |   |   app_foreground = com.samsung.android.spay: 5 (0.0)
+|   |   |   app_foreground = com.adobe.reader: 5 (0.0)
+|   |   |   app_foreground = com.garmin.android.apps.connectmobile: 5 (0.0)
+|   |   |   app_foreground = com.android.incallui: 5 (0.0)
+|   |   |   app_foreground = com.sonyericsson.home: 5 (0.0)
+|   |   |   app_foreground = com.waze: 5 (0.0)
+|   |   |   app_foreground = com.musixmatch.android.lyrify: 5 (0.0)
+|   |   |   app_foreground = net.oneplus.launcher: 5 (0.0)
+|   |   |   app_foreground = com.google.android.gms: 5 (0.0)
+|   |   |   app_foreground = com.android.phone: 5 (0.0)
+|   |   |   app_foreground = com.jaraxa.todocoleccion: 5 (0.0)
+|   |   |   app_foreground = com.supercell.clashofclans: 5 (0.0)
+|   |   |   app_foreground = com.sonelli.juicessh: 5 (0.0)
+|   |   |   app_foreground = com.instagram.android: 5 (0.0)
+|   |   |   app_foreground = py.com.itau.tokpag: 5 (0.0)
+|   |   |   app_foreground = org.mozilla.firefox: 5 (0.0)
+|   |   |   app_foreground = com.android.launcher3: 5 (0.0)
+|   |   |   app_foreground = com.amazon.avod.thirdpartyclient: 5 (0.0)
+|   devid = 790c227141314780
+|   |   indice_intervalo <= 15: 4 (16.0)
+|   |   indice_intervalo > 15
+|   |   |   indice_intervalo <= 19
+|   |   |   |   alejado <= 238420: 3 (2.0/1.0)
+|   |   |   |   alejado > 238420: 4 (2.0)
+|   |   |   indice_intervalo > 19: 5 (4.0)
+|   devid = bbe3002f6e378eed
+|   |   alejado <= 179333: 2 (2.0)
+|   |   alejado > 179333: 4 (10.0)
+|   devid = e64bbee157aededc: 4 (12.0/2.0)
+|   devid = 4192432e1cf42d52: 5 (1.0)
+|   devid = 6e85b338913ae764: 5 (20.0)
+|   devid = d554e3b29fe24a3b
+|   |   alejado <= 71026: 2 (3.0/2.0)
+|   |   alejado > 71026: 5 (7.0)
+|   devid = c35c6393398f7068: 5 (2.0)
+|   devid = 4c3dfa2cea50e9bb
+|   |   dv_delay <= 12
+|   |   |   ns <= 3.5: 1 (2.0)
+|   |   |   ns > 3.5: 2 (11.0)
+|   |   dv_delay > 12
+|   |   |   mood <= 3.5
+|   |   |   |   dv_delay <= 43.744186
+|   |   |   |   |   bw <= 1037406.483791: 4 (3.0)
+|   |   |   |   |   bw > 1037406.483791: 2 (3.0/1.0)
+|   |   |   |   dv_delay > 43.744186: 3 (6.0/1.0)
+|   |   |   mood > 3.5
+|   |   |   |   bw <= 35049.844435: 1 (2.0/1.0)
+|   |   |   |   bw > 35049.844435
+|   |   |   |   |   alejado <= 215384: 3 (3.0)
+|   |   |   |   |   alejado > 215384: 1 (2.0/1.0)
+|   devid = 332d672c51091609
+|   |   ram <= 424: 5 (2.0)
+|   |   ram > 424
+|   |   |   t_cpu <= 44.5: 4 (7.0)
+|   |   |   t_cpu > 44.5: 5 (2.0)
+|   devid = 61d848e7503b5852
+|   |   app_foreground = com.whatsapp
+|   |   |   battery_l <= 54.333333: 4 (2.0/1.0)
+|   |   |   battery_l > 54.333333: 1 (2.0)
+|   |   app_foreground = com.android.chrome: 2 (2.0/1.0)
+|   |   app_foreground = org.pol.jmgo.qoesurveyor: 3 (0.0)
+|   |   app_foreground = com.android.vending: 3 (0.0)
+|   |   app_foreground = com.twitter.android: 3 (0.0)
+|   |   app_foreground = com.netflix.mediaclient: 3 (0.0)
+|   |   app_foreground = android: 3 (0.0)
+|   |   app_foreground = com.sec.android.app.launcher: 2 (3.0/1.0)
+|   |   app_foreground = com.android.settings: 3 (1.0)
+|   |   app_foreground = com.google.android.youtube
+|   |   |   ram <= 462.333333: 3 (5.0/1.0)
+|   |   |   ram > 462.333333: 4 (8.0/2.0)
+|   |   app_foreground = com.android.launcher: 3 (0.0)
+|   |   app_foreground = com.itau.latam.py.tarjetas: 3 (0.0)
+|   |   app_foreground = com.internet.speed.meter.lite: 3 (0.0)
+|   |   app_foreground = com.facebook.lite: 3 (0.0)
+|   |   app_foreground = com.facebook.katana: 3 (0.0)
+|   |   app_foreground = com.android.vpndialogs: 3 (0.0)
+|   |   app_foreground = com.samsung.android.email.provider: 3 (0.0)
+|   |   app_foreground = com.zerodesktop.appdetox.qualitytime: 3 (0.0)
+|   |   app_foreground = com.juvomobileinc.tigoshop.py: 3 (0.0)
+|   |   app_foreground = com.android.systemui: 3 (1.0)
+|   |   app_foreground = org.telegram.plus: 3 (0.0)
+|   |   app_foreground = com.sec.android.app.sbrowser: 3 (0.0)
+|   |   app_foreground = com.spotify.music: 3 (0.0)
+|   |   app_foreground = com.facebook.moments: 3 (0.0)
+|   |   app_foreground = com.ACP.ClinicalGuidelines: 3 (0.0)
+|   |   app_foreground = py.com.abc.abctv: 3 (0.0)
+|   |   app_foreground = uk.co.bbc.mundo: 3 (0.0)
+|   |   app_foreground = org.khanacademy.android: 3 (0.0)
+|   |   app_foreground = com.adobe.psmobile: 3 (0.0)
+|   |   app_foreground = com.samsung.android.incallui: 3 (0.0)
+|   |   app_foreground = com.scdgroup.app.englishspeakvocal: 3 (0.0)
+|   |   app_foreground = com.google.android.googlequicksearchbox: 3 (0.0)
+|   |   app_foreground = com.google.android.apps.maps: 5 (1.0)
+|   |   app_foreground = jp.konami.duellinks: 3 (0.0)
+|   |   app_foreground = com.lge.launcher2: 3 (0.0)
+|   |   app_foreground = com.huawei.android.launcher: 3 (0.0)
+|   |   app_foreground = com.google.android.apps.docs: 3 (0.0)
+|   |   app_foreground = com.samsung.android.spay: 3 (0.0)
+|   |   app_foreground = com.adobe.reader: 3 (0.0)
+|   |   app_foreground = com.garmin.android.apps.connectmobile: 3 (0.0)
+|   |   app_foreground = com.android.incallui: 3 (0.0)
+|   |   app_foreground = com.sonyericsson.home: 3 (0.0)
+|   |   app_foreground = com.waze: 3 (0.0)
+|   |   app_foreground = com.musixmatch.android.lyrify: 3 (0.0)
+|   |   app_foreground = net.oneplus.launcher: 3 (0.0)
+|   |   app_foreground = com.google.android.gms: 3 (0.0)
+|   |   app_foreground = com.android.phone: 3 (0.0)
+|   |   app_foreground = com.jaraxa.todocoleccion: 3 (0.0)
+|   |   app_foreground = com.supercell.clashofclans: 3 (0.0)
+|   |   app_foreground = com.sonelli.juicessh: 3 (0.0)
+|   |   app_foreground = com.instagram.android: 3 (0.0)
+|   |   app_foreground = py.com.itau.tokpag: 3 (0.0)
+|   |   app_foreground = org.mozilla.firefox: 3 (0.0)
+|   |   app_foreground = com.android.launcher3: 3 (0.0)
+|   |   app_foreground = com.amazon.avod.thirdpartyclient: 3 (0.0)
+|   devid = 867fe59be043d779: 5 (10.0/1.0)
+|   devid = a1f8f29e35209a42: 5 (4.0)
+|   devid = 4504da30b01769b7
+|   |   prueba_nro <= 1: 4 (2.0)
+|   |   prueba_nro > 1
+|   |   |   dv_delay <= 41.75
+|   |   |   |   alejado <= 269774: 3 (3.0/1.0)
+|   |   |   |   alejado > 269774
+|   |   |   |   |   dv_delay <= 29.5: 3 (2.0/1.0)
+|   |   |   |   |   dv_delay > 29.5: 4 (3.0)
+|   |   |   dv_delay > 41.75: 5 (3.0)
+|   devid = 7e4cfd066dafa944: 5 (3.0/1.0)
+|   devid = 9de8b4b98c575ea5
+|   |   dv_delay <= 53: 3 (20.0/7.0)
+|   |   dv_delay > 53: 4 (4.0/1.0)
+|   devid = 5a92d851bc704d: 5 (13.0)
+|   devid = a6fb86ca165ca918
+|   |   ns <= 3.76
+|   |   |   alejado <= 399705: 5 (2.0)
+|   |   |   alejado > 399705: 3 (2.0)
+|   |   ns > 3.76: 2 (2.0/1.0)
+|   devid = 65e49509039eb913
+|   |   bw <= 9853.749055: 2 (4.0/1.0)
+|   |   bw > 9853.749055: 3 (2.0/1.0)
+|   devid = 247e4508ec4521f9
+|   |   dv_saltos <= 11.3639: 5 (18.0/5.0)
+|   |   dv_saltos > 11.3639: 4 (5.0/1.0)
+|   devid = 6c3fa7f635a073f5
+|   |   indice_en_prueba <= 1: 3 (2.0)
+|   |   indice_en_prueba > 1: 4 (3.0/1.0)
+|   devid = 7caeb732fb3ad6af
+|   |   mood <= 4.5: 5 (20.0/3.0)
+|   |   mood > 4.5: 4 (8.0)
+|   devid = 344404a75543aaf0
+|   |   prueba_nro <= 1
+|   |   |   ns <= 3.36: 4 (2.0)
+|   |   |   ns > 3.36
+|   |   |   |   t_cpu <= 59.666667: 4 (2.0)
+|   |   |   |   t_cpu > 59.666667: 3 (6.0/1.0)
+|   |   prueba_nro > 1
+|   |   |   app_foreground = com.whatsapp: 5 (1.0)
+|   |   |   app_foreground = com.android.chrome
+|   |   |   |   mood <= 4.5: 4 (8.0/1.0)
+|   |   |   |   mood > 4.5
+|   |   |   |   |   bw <= 786885.245902
+|   |   |   |   |   |   ns <= 3.254545: 5 (3.0)
+|   |   |   |   |   |   ns > 3.254545: 4 (4.0/1.0)
+|   |   |   |   |   bw > 786885.245902: 1 (2.0/1.0)
+|   |   |   app_foreground = org.pol.jmgo.qoesurveyor
+|   |   |   |   indice_en_prueba <= 4: 4 (4.0)
+|   |   |   |   indice_en_prueba > 4: 5 (3.0)
+|   |   |   app_foreground = com.android.vending: 5 (0.0)
+|   |   |   app_foreground = com.twitter.android: 5 (0.0)
+|   |   |   app_foreground = com.netflix.mediaclient: 5 (0.0)
+|   |   |   app_foreground = android: 5 (0.0)
+|   |   |   app_foreground = com.sec.android.app.launcher: 5 (0.0)
+|   |   |   app_foreground = com.android.settings: 5 (0.0)
+|   |   |   app_foreground = com.google.android.youtube: 5 (35.0)
+|   |   |   app_foreground = com.android.launcher: 5 (0.0)
+|   |   |   app_foreground = com.itau.latam.py.tarjetas: 5 (0.0)
+|   |   |   app_foreground = com.internet.speed.meter.lite: 5 (0.0)
+|   |   |   app_foreground = com.facebook.lite: 5 (0.0)
+|   |   |   app_foreground = com.facebook.katana: 5 (0.0)
+|   |   |   app_foreground = com.android.vpndialogs: 5 (0.0)
+|   |   |   app_foreground = com.samsung.android.email.provider: 5 (0.0)
+|   |   |   app_foreground = com.zerodesktop.appdetox.qualitytime: 5 (0.0)
+|   |   |   app_foreground = com.juvomobileinc.tigoshop.py: 5 (0.0)
+|   |   |   app_foreground = com.android.systemui: 5 (0.0)
+|   |   |   app_foreground = org.telegram.plus: 5 (0.0)
+|   |   |   app_foreground = com.sec.android.app.sbrowser: 5 (0.0)
+|   |   |   app_foreground = com.spotify.music: 5 (0.0)
+|   |   |   app_foreground = com.facebook.moments: 5 (0.0)
+|   |   |   app_foreground = com.ACP.ClinicalGuidelines: 5 (0.0)
+|   |   |   app_foreground = py.com.abc.abctv: 5 (0.0)
+|   |   |   app_foreground = uk.co.bbc.mundo: 5 (0.0)
+|   |   |   app_foreground = org.khanacademy.android: 5 (0.0)
+|   |   |   app_foreground = com.adobe.psmobile: 5 (0.0)
+|   |   |   app_foreground = com.samsung.android.incallui: 5 (0.0)
+|   |   |   app_foreground = com.scdgroup.app.englishspeakvocal: 5 (0.0)
+|   |   |   app_foreground = com.google.android.googlequicksearchbox: 5 (0.0)
+|   |   |   app_foreground = com.google.android.apps.maps: 5 (0.0)
+|   |   |   app_foreground = jp.konami.duellinks: 5 (0.0)
+|   |   |   app_foreground = com.lge.launcher2: 5 (0.0)
+|   |   |   app_foreground = com.huawei.android.launcher: 5 (0.0)
+|   |   |   app_foreground = com.google.android.apps.docs: 5 (0.0)
+|   |   |   app_foreground = com.samsung.android.spay: 5 (0.0)
+|   |   |   app_foreground = com.adobe.reader: 5 (0.0)
+|   |   |   app_foreground = com.garmin.android.apps.connectmobile: 5 (0.0)
+|   |   |   app_foreground = com.android.incallui: 5 (0.0)
+|   |   |   app_foreground = com.sonyericsson.home: 5 (0.0)
+|   |   |   app_foreground = com.waze: 5 (0.0)
+|   |   |   app_foreground = com.musixmatch.android.lyrify: 5 (0.0)
+|   |   |   app_foreground = net.oneplus.launcher: 5 (0.0)
+|   |   |   app_foreground = com.google.android.gms: 5 (0.0)
+|   |   |   app_foreground = com.android.phone: 5 (1.0)
+|   |   |   app_foreground = com.jaraxa.todocoleccion: 5 (2.0)
+|   |   |   app_foreground = com.supercell.clashofclans: 5 (0.0)
+|   |   |   app_foreground = com.sonelli.juicessh: 5 (0.0)
+|   |   |   app_foreground = com.instagram.android: 5 (0.0)
+|   |   |   app_foreground = py.com.itau.tokpag: 5 (0.0)
+|   |   |   app_foreground = org.mozilla.firefox: 5 (0.0)
+|   |   |   app_foreground = com.android.launcher3: 5 (0.0)
+|   |   |   app_foreground = com.amazon.avod.thirdpartyclient: 5 (0.0)
+|   devid = 0264ea70c8976793
+|   |   indice_intervalo <= 6
+|   |   |   battery_t <= 32.933333: 3 (5.0/1.0)
+|   |   |   battery_t > 32.933333: 2 (2.0)
+|   |   indice_intervalo > 6: 5 (29.0/5.0)
+|   devid = 3c66f51dbc94d163
+|   |   df_delay <= 89: 3 (3.0)
+|   |   df_delay > 89: 2 (3.0/1.0)
+|   devid = dcceb1b848daf324: 3 (1.0)
+|   devid = 6f2a6c95c065c7a3
+|   |   alejado <= 202944: 2 (2.0/1.0)
+|   |   alejado > 202944: 1 (9.0/2.0)
+|   devid = f25d48f8931ef23f
+|   |   app_foreground = com.whatsapp: 1 (1.0)
+|   |   app_foreground = com.android.chrome: 1 (0.0)
+|   |   app_foreground = org.pol.jmgo.qoesurveyor: 2 (2.0/1.0)
+|   |   app_foreground = com.android.vending: 1 (0.0)
+|   |   app_foreground = com.twitter.android: 1 (0.0)
+|   |   app_foreground = com.netflix.mediaclient: 1 (0.0)
+|   |   app_foreground = android
+|   |   |   df_delay <= 32.333333: 4 (2.0/1.0)
+|   |   |   df_delay > 32.333333: 3 (2.0)
+|   |   app_foreground = com.sec.android.app.launcher: 3 (2.0)
+|   |   app_foreground = com.android.settings: 1 (0.0)
+|   |   app_foreground = com.google.android.youtube
+|   |   |   bw <= 971962.616822: 2 (5.0/1.0)
+|   |   |   bw > 971962.616822: 1 (2.0/1.0)
+|   |   app_foreground = com.android.launcher: 1 (0.0)
+|   |   app_foreground = com.itau.latam.py.tarjetas: 1 (0.0)
+|   |   app_foreground = com.internet.speed.meter.lite: 1 (0.0)
+|   |   app_foreground = com.facebook.lite: 1 (0.0)
+|   |   app_foreground = com.facebook.katana: 1 (0.0)
+|   |   app_foreground = com.android.vpndialogs: 1 (0.0)
+|   |   app_foreground = com.samsung.android.email.provider: 1 (0.0)
+|   |   app_foreground = com.zerodesktop.appdetox.qualitytime: 1 (0.0)
+|   |   app_foreground = com.juvomobileinc.tigoshop.py: 1 (0.0)
+|   |   app_foreground = com.android.systemui: 1 (0.0)
+|   |   app_foreground = org.telegram.plus: 1 (0.0)
+|   |   app_foreground = com.sec.android.app.sbrowser
+|   |   |   battery_l <= 38.333333: 1 (2.0)
+|   |   |   battery_l > 38.333333
+|   |   |   |   df_delay <= 22: 1 (3.0)
+|   |   |   |   df_delay > 22: 2 (2.0)
+|   |   app_foreground = com.spotify.music: 1 (0.0)
+|   |   app_foreground = com.facebook.moments: 1 (0.0)
+|   |   app_foreground = com.ACP.ClinicalGuidelines: 1 (0.0)
+|   |   app_foreground = py.com.abc.abctv: 1 (0.0)
+|   |   app_foreground = uk.co.bbc.mundo: 1 (0.0)
+|   |   app_foreground = org.khanacademy.android: 1 (0.0)
+|   |   app_foreground = com.adobe.psmobile: 1 (0.0)
+|   |   app_foreground = com.samsung.android.incallui: 1 (0.0)
+|   |   app_foreground = com.scdgroup.app.englishspeakvocal: 1 (0.0)
+|   |   app_foreground = com.google.android.googlequicksearchbox: 1 (0.0)
+|   |   app_foreground = com.google.android.apps.maps: 1 (0.0)
+|   |   app_foreground = jp.konami.duellinks: 1 (0.0)
+|   |   app_foreground = com.lge.launcher2: 1 (0.0)
+|   |   app_foreground = com.huawei.android.launcher: 1 (0.0)
+|   |   app_foreground = com.google.android.apps.docs: 1 (0.0)
+|   |   app_foreground = com.samsung.android.spay: 1 (0.0)
+|   |   app_foreground = com.adobe.reader: 1 (0.0)
+|   |   app_foreground = com.garmin.android.apps.connectmobile: 1 (0.0)
+|   |   app_foreground = com.android.incallui: 1 (0.0)
+|   |   app_foreground = com.sonyericsson.home: 1 (0.0)
+|   |   app_foreground = com.waze: 1 (0.0)
+|   |   app_foreground = com.musixmatch.android.lyrify: 1 (0.0)
+|   |   app_foreground = net.oneplus.launcher: 1 (0.0)
+|   |   app_foreground = com.google.android.gms: 1 (0.0)
+|   |   app_foreground = com.android.phone: 1 (0.0)
+|   |   app_foreground = com.jaraxa.todocoleccion: 1 (0.0)
+|   |   app_foreground = com.supercell.clashofclans: 1 (0.0)
+|   |   app_foreground = com.sonelli.juicessh: 1 (0.0)
+|   |   app_foreground = com.instagram.android: 1 (0.0)
+|   |   app_foreground = py.com.itau.tokpag: 1 (0.0)
+|   |   app_foreground = org.mozilla.firefox: 1 (0.0)
+|   |   app_foreground = com.android.launcher3: 1 (0.0)
+|   |   app_foreground = com.amazon.avod.thirdpartyclient: 1 (0.0)
+|   devid = c43e0a23ab297d87: 3 (1.0)
+|   devid = bd016d8f3093b6a4: 5 (11.0/1.0)
+|   devid = 867287031950897
+|   |   indice_intervalo <= 4
+|   |   |   indice_en_prueba <= 1: 3 (2.0)
+|   |   |   indice_en_prueba > 1: 1 (3.0/1.0)
+|   |   indice_intervalo > 4: 4 (10.0/5.0)
+|   devid = a32d3af596578938
+|   |   mood <= 2.5: 3 (4.0)
+|   |   mood > 2.5: 5 (21.0/1.0)
+|   devid = 81410329db99223d: 5 (13.0)
+|   devid = 2f41118c2aee66ae
+|   |   alejado <= 69061: 5 (2.0)
+|   |   alejado > 69061: 4 (2.0)
+|   devid = a208a7c4a26d8df7: 2 (1.0)
+|   devid = d71847dfd6b46fcd
+|   |   alejado <= 10997: 3 (5.0/3.0)
+|   |   alejado > 10997: 2 (3.0/1.0)
+
+Number of Leaves  : 	533
+
+Size of the tree : 	633
+
+
+Time taken to build model: 0.38 seconds
+
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         780               83.871  %
+Incorrectly Classified Instances       150               16.129  %
+Kappa statistic                          0.7722
+Mean absolute error                      0.0922
+Root mean squared error                  0.2147
+Relative absolute error                 32.357  %
+Root relative squared error             56.9019 %
+Total Number of Instances              930     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.828    0.030    0.755      0.828    0.790      0.766    0.979     0.844     1
+                 0.750    0.021    0.778      0.750    0.764      0.741    0.977     0.835     2
+                 0.719    0.038    0.764      0.719    0.740      0.698    0.964     0.823     3
+                 0.784    0.040    0.843      0.784    0.813      0.765    0.965     0.898     4
+                 0.924    0.094    0.890      0.924    0.906      0.827    0.974     0.962     5
+Weighted Avg.    0.839    0.061    0.838      0.839    0.838      0.781    0.971     0.905     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+  77   1   2   1  12 |   a = 1
+   7  63   5   2   7 |   b = 2
+  10   8  97  13   7 |   c = 3
+   2   7  12 156  22 |   d = 4
+   6   2  11  13 387 |   e = 5
+
+Time taken to perform cross-validation: 0.44 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         547               58.8172 %
+Incorrectly Classified Instances       383               41.1828 %
+Kappa statistic                          0.4177
+Mean absolute error                      0.1805
+Root mean squared error                  0.3638
+Relative absolute error                 63.3323 %
+Root relative squared error             96.4079 %
+Total Number of Instances              930     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.419    0.066    0.415      0.419    0.417      0.352    0.732     0.304     1
+                 0.238    0.065    0.267      0.238    0.252      0.182    0.682     0.211     2
+                 0.385    0.107    0.380      0.385    0.382      0.277    0.677     0.293     3
+                 0.467    0.133    0.489      0.467    0.478      0.340    0.706     0.426     4
+                 0.819    0.178    0.790      0.819    0.804      0.639    0.855     0.799     5
+Weighted Avg.    0.588    0.137    0.581      0.588    0.585      0.452    0.770     0.543     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+  39  19  12   6  17 |   a = 1
+  22  20  18  13  11 |   b = 2
+  13  17  52  36  17 |   c = 3
+  11  13  36  93  46 |   d = 4
+   9   6  19  42 343 |   e = 5
+

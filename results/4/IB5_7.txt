@@ -1,0 +1,80 @@
+
+Options: -K 5 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A "weka.core.EuclideanDistance -R first-last"" 
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 5 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.3 seconds
+
+Time taken to test model on training data: 0.27 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         674               72.4731 %
+Incorrectly Classified Instances       256               27.5269 %
+Kappa statistic                          0.6142
+Mean absolute error                      0.1457
+Root mean squared error                  0.2685
+Relative absolute error                 51.1375 %
+Root relative squared error             71.1585 %
+Total Number of Instances              930     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.785    0.068    0.562      0.785    0.655      0.620    0.959     0.669     1
+                 0.476    0.027    0.635      0.476    0.544      0.512    0.940     0.566     2
+                 0.548    0.064    0.592      0.548    0.569      0.500    0.913     0.574     3
+                 0.668    0.085    0.682      0.668    0.675      0.588    0.910     0.709     4
+                 0.845    0.123    0.849      0.845    0.847      0.722    0.944     0.920     5
+Weighted Avg.    0.725    0.092    0.728      0.725    0.723      0.632    0.934     0.767     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+  73   6   3   2   9 |   a = 1
+  21  40   8   7   8 |   b = 2
+  19   7  74  19  16 |   c = 3
+   8   6  22 133  30 |   d = 4
+   9   4  18  34 354 |   e = 5
+
+Time taken to perform cross-validation: 0.18 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         543               58.3871 %
+Incorrectly Classified Instances       387               41.6129 %
+Kappa statistic                          0.4184
+Mean absolute error                      0.1881
+Root mean squared error                  0.3342
+Relative absolute error                 66.0021 %
+Root relative squared error             88.572  %
+Total Number of Instances              930     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.581    0.088    0.422      0.581    0.489      0.429    0.831     0.418     1
+                 0.345    0.052    0.397      0.345    0.369      0.313    0.734     0.300     2
+                 0.311    0.098    0.350      0.311    0.329      0.224    0.725     0.283     3
+                 0.523    0.127    0.528      0.523    0.525      0.397    0.766     0.495     4
+                 0.749    0.192    0.762      0.749    0.756      0.559    0.865     0.832     5
+Weighted Avg.    0.584    0.141    0.585      0.584    0.583      0.440    0.808     0.591     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+  54  17   9   3  10 |   a = 1
+  22  29  12   9  12 |   b = 2
+  22  14  42  28  29 |   c = 3
+  12   8  28 104  47 |   d = 4
+  18   5  29  53 314 |   e = 5
+

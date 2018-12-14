@@ -1,0 +1,80 @@
+
+Options: -K 10 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A "weka.core.EuclideanDistance -R first-last"" 
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 10 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.29 seconds
+
+Time taken to test model on training data: 0.25 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         617               66.3441 %
+Incorrectly Classified Instances       313               33.6559 %
+Kappa statistic                          0.524 
+Mean absolute error                      0.1774
+Root mean squared error                  0.2949
+Relative absolute error                 62.2518 %
+Root relative squared error             78.1479 %
+Total Number of Instances              930     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.645    0.059    0.550      0.645    0.594      0.547    0.928     0.565     1
+                 0.345    0.040    0.460      0.345    0.395      0.348    0.886     0.430     2
+                 0.504    0.083    0.507      0.504    0.506      0.422    0.864     0.475     3
+                 0.563    0.105    0.593      0.563    0.577      0.466    0.870     0.646     4
+                 0.831    0.170    0.800      0.831    0.815      0.658    0.921     0.898     5
+Weighted Avg.    0.663    0.121    0.658      0.663    0.659      0.544    0.899     0.707     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+  60   7  11   3  12 |   a = 1
+  21  29  13  11  10 |   b = 2
+   9  13  68  23  22 |   c = 3
+   7   9  28 112  43 |   d = 4
+  12   5  14  40 348 |   e = 5
+
+Time taken to perform cross-validation: 0.18 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         518               55.6989 %
+Incorrectly Classified Instances       412               44.3011 %
+Kappa statistic                          0.3712
+Mean absolute error                      0.2032
+Root mean squared error                  0.3305
+Relative absolute error                 71.2983 %
+Root relative squared error             87.5856 %
+Total Number of Instances              930     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.441    0.084    0.369      0.441    0.402      0.331    0.825     0.357     1
+                 0.250    0.056    0.309      0.250    0.276      0.214    0.757     0.299     2
+                 0.274    0.098    0.322      0.274    0.296      0.188    0.722     0.293     3
+                 0.437    0.145    0.451      0.437    0.444      0.295    0.771     0.521     4
+                 0.792    0.217    0.749      0.792    0.770      0.573    0.871     0.838     5
+Weighted Avg.    0.557    0.157    0.546      0.557    0.550      0.401    0.813     0.594     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+  41  18  11   5  18 |   a = 1
+  23  21  14  12  14 |   b = 2
+  20  16  37  37  25 |   c = 3
+  14   6  38  87  54 |   d = 4
+  13   7  15  52 332 |   e = 5
+
