@@ -108,6 +108,7 @@ for algoritmo in algoritmos:
         df_weka_mad[metrica][algoritmo] = df[metrica].mad(skipna=True)
 
 # Sección de impresión de resultados
+TOP=6
 orden_rendimiento_algoritmos_r = {}
 orden_rendimiento_algoritmos_weka = {}
 for metrica in columnsToAnalyze:
@@ -122,7 +123,7 @@ with open(DIRDATA + outputFileNames[0], 'w') as csvfile:
     curr_list = algoritmos
     for metrica in columnsToAnalyze:
         lista_algoritmos = orden_rendimiento_algoritmos_r[metrica]
-        new_list = lista_algoritmos[:7]
+        new_list = lista_algoritmos[:TOP]
         curr_list = list(set(curr_list) & set(new_list))
         for algoritmo in lista_algoritmos:
             avg = df_r_avg[metrica][algoritmo]
@@ -140,7 +141,7 @@ with open(DIRDATA + outputFileNames[1], 'w') as csvfile:
     curr_list = algoritmos
     for metrica in columnsToAnalyze:
         lista_algoritmos = orden_rendimiento_algoritmos_weka[metrica]
-        new_list = lista_algoritmos[:7]
+        new_list = lista_algoritmos[:TOP]
         curr_list = list(set(curr_list) & set(new_list))
         for algoritmo in lista_algoritmos:
             avg = df_weka_avg[metrica][algoritmo]
@@ -148,5 +149,3 @@ with open(DIRDATA + outputFileNames[1], 'w') as csvfile:
             wr.writerow([metrica, algoritmo, avg, mad])
     # Armamos la lista de los algoritmos presentes en la mayoría de los top 7 WEKA
     print('Mejores rendimientos globales de algoritmos en datos WEKA',curr_list)
-
-# Seleccionar 

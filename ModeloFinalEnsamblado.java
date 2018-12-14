@@ -211,10 +211,8 @@ public class ModeloFinalEnsamblado {
                 for (parseStats.key_fold = 1; parseStats.key_fold < 11; parseStats.key_fold++){
                     // Instanciar y Configurar el sistema ensamblado
                     Vote ensamblado = new Vote();
-                    for (Classifier c : algoritmos){
-                        ensamblado.aggregate(c);
-                    }
-                    ensamblado.finalizeAggregation();
+                    ensamblado.setClassifiers(algoritmos);
+                    //ensamblado.finalizeAggregation();
                     // AVERAGE_RULE, PRODUCT_RULE, MAJORITY_VOTING_RULE, MIN_RULE, MAX_RULE, MEDIAN_RULE
                     ensamblado.setCombinationRule(new SelectedTag(Vote.AVERAGE_RULE, Vote.TAGS_RULES));
                     // Establecer la instancia como algoritmo clasificador
