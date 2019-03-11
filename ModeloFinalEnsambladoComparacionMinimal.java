@@ -211,6 +211,8 @@ public class ModeloFinalEnsambladoComparacionMinimal {
             new RBFClassifier()
         };
 
+        long promedio = 0;
+
         // Para cada dataset
         for (int j=0; j < datasets.length; j++) {
             ModeloFinalEnsambladoComparacionMinimal parseStats = new ModeloFinalEnsambladoComparacionMinimal();
@@ -223,6 +225,8 @@ public class ModeloFinalEnsambladoComparacionMinimal {
                 pw.println(cabecera_csv);
 
                 // Aleatoriedad de los subconjuntos para correr el 10-CV
+                Long inicio_t, fin_t, diferencia;
+                inicio_t = System.currentTimeMillis();
                 for (parseStats.key_fold = 1; parseStats.key_fold < 11; parseStats.key_fold++){
                     // Instanciar y Configurar el sistema ensamblado
                     Vote ensamblado = new Vote();
@@ -242,11 +246,15 @@ public class ModeloFinalEnsambladoComparacionMinimal {
                     pw.println(sb.toString());
                     pw.flush();    
                 }
+                fin_t = System.currentTimeMillis();
+                diferencia = fin_t - inicio_t;
+                promedio += diferencia;
                 pw.close();
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
             }
-            
         }
+        promedio /= 2;
+        System.out.println("ModeloFinalEnsambladoDiversidadCuatroAlgoritmos" + "," + String.valueOf(promedio));
     }
 }
