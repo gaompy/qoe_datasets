@@ -174,6 +174,7 @@ public class ParseStatsMultiThread {
         sb.append(',');
         try {
             sb.append(eval.truePositiveRate(classIndex));
+            
         } catch (ArrayIndexOutOfBoundsException e) {
             sb.append(Double.NaN);
             e.printStackTrace();
@@ -204,6 +205,7 @@ public class ParseStatsMultiThread {
             new Thread("MultilayerPerceptron") {
                 public void run(){
                     Classifier algoritmo = new MultilayerPerceptron();
+                    long promedio = 0;
                     for (String d : datasets) {
                         ParseStatsMultiThread parseStats = new ParseStatsMultiThread();
                         // Build the data path
@@ -213,6 +215,8 @@ public class ParseStatsMultiThread {
                             // Campos del archivo CSV
                             pw.println(cabecera_csv);
                             // Aleatoriedad de los subconjuntos para correr el 10-CV
+                            Long inicio_t, fin_t, diferencia;
+                            inicio_t = System.currentTimeMillis();
                             for (parseStats.key_fold = 1; parseStats.key_fold < 11; parseStats.key_fold++){
                                 // Selección de algoritmo clasificador
                                 parseStats.m_Classifier = algoritmo;
@@ -226,6 +230,9 @@ public class ParseStatsMultiThread {
                                 pw.println(sb.toString());
                                 pw.flush();
                             }
+                            fin_t = System.currentTimeMillis();
+                            diferencia = fin_t - inicio_t;
+                            promedio += diferencia;
                             pw.close();
                         } catch (FileNotFoundException e) {
                             e.printStackTrace();
@@ -233,11 +240,14 @@ public class ParseStatsMultiThread {
                             e.printStackTrace();
                         }
                     }
+                    promedio /= 2;
+                    System.out.println(Thread.currentThread().getName() + "," + String.valueOf(promedio));
                 }
             },
             new Thread("RBFNetwork") {
                 public void run(){
                     Classifier algoritmo = new RBFNetwork();
+                    long promedio = 0;
                     for (String d : datasets) {
                         ParseStatsMultiThread parseStats = new ParseStatsMultiThread();
                         // Build the data path
@@ -247,6 +257,8 @@ public class ParseStatsMultiThread {
                             // Campos del archivo CSV
                             pw.println(cabecera_csv);
                             // Aleatoriedad de los subconjuntos para correr el 10-CV
+                            Long inicio_t, fin_t, diferencia;
+                            inicio_t = System.currentTimeMillis();
                             for (parseStats.key_fold = 1; parseStats.key_fold < 11; parseStats.key_fold++){
                                 // Selección de algoritmo clasificador
                                 parseStats.m_Classifier = algoritmo;
@@ -260,6 +272,9 @@ public class ParseStatsMultiThread {
                                 pw.println(sb.toString());
                                 pw.flush();
                             }
+                            fin_t = System.currentTimeMillis();
+                            diferencia = fin_t - inicio_t;
+                            promedio += diferencia;
                             pw.close();
                         } catch (FileNotFoundException e) {
                             e.printStackTrace();
@@ -267,11 +282,14 @@ public class ParseStatsMultiThread {
                             e.printStackTrace();
                         }
                     }
+                    promedio /= 2;
+                    System.out.println(Thread.currentThread().getName() + "," + String.valueOf(promedio));
                 }
             },
             new Thread("RBFClassifier") {
                 public void run(){
                     Classifier algoritmo = new RBFClassifier();
+                    long promedio = 0;
                     for (String d : datasets) {
                         ParseStatsMultiThread parseStats = new ParseStatsMultiThread();
                         // Build the data path
@@ -281,6 +299,8 @@ public class ParseStatsMultiThread {
                             // Campos del archivo CSV
                             pw.println(cabecera_csv);
                             // Aleatoriedad de los subconjuntos para correr el 10-CV
+                            Long inicio_t, fin_t, diferencia;
+                            inicio_t = System.currentTimeMillis();
                             for (parseStats.key_fold = 1; parseStats.key_fold < 11; parseStats.key_fold++){
                                 // Selección de algoritmo clasificador
                                 parseStats.m_Classifier = algoritmo;
@@ -294,6 +314,9 @@ public class ParseStatsMultiThread {
                                 pw.println(sb.toString());
                                 pw.flush();
                             }
+                            fin_t = System.currentTimeMillis();
+                            diferencia = fin_t - inicio_t;
+                            promedio += diferencia;
                             pw.close();
                         } catch (FileNotFoundException e) {
                             e.printStackTrace();
@@ -301,11 +324,14 @@ public class ParseStatsMultiThread {
                             e.printStackTrace();
                         }
                     }
+                    promedio /= 2;
+                    System.out.println(Thread.currentThread().getName() + "," + String.valueOf(promedio));
                 }
             },
             new Thread("SimpleLogistic") {
                 public void run(){
                     Classifier algoritmo = new SimpleLogistic();
+                    long promedio = 0;
                     for (String d : datasets) {
                         ParseStatsMultiThread parseStats = new ParseStatsMultiThread();
                         // Build the data path
@@ -315,6 +341,8 @@ public class ParseStatsMultiThread {
                             // Campos del archivo CSV
                             pw.println(cabecera_csv);
                             // Aleatoriedad de los subconjuntos para correr el 10-CV
+                            Long inicio_t, fin_t, diferencia;
+                            inicio_t = System.currentTimeMillis();
                             for (parseStats.key_fold = 1; parseStats.key_fold < 11; parseStats.key_fold++){
                                 // Selección de algoritmo clasificador
                                 parseStats.m_Classifier = algoritmo;
@@ -328,6 +356,9 @@ public class ParseStatsMultiThread {
                                 pw.println(sb.toString());
                                 pw.flush();
                             }
+                            fin_t = System.currentTimeMillis();
+                            diferencia = fin_t - inicio_t;
+                            promedio += diferencia;
                             pw.close();
                         } catch (FileNotFoundException e) {
                             e.printStackTrace();
@@ -335,11 +366,14 @@ public class ParseStatsMultiThread {
                             e.printStackTrace();
                         }
                     }
+                    promedio /= 2;
+                    System.out.println(Thread.currentThread().getName() + "," + String.valueOf(promedio));
                 }
             },
             new Thread("Logistic") {
                 public void run(){
                     Classifier algoritmo = new Logistic();
+                    long promedio = 0;
                     for (String d : datasets) {
                         ParseStatsMultiThread parseStats = new ParseStatsMultiThread();
                         // Build the data path
@@ -349,6 +383,8 @@ public class ParseStatsMultiThread {
                             // Campos del archivo CSV
                             pw.println(cabecera_csv);
                             // Aleatoriedad de los subconjuntos para correr el 10-CV
+                            Long inicio_t, fin_t, diferencia;
+                            inicio_t = System.currentTimeMillis();
                             for (parseStats.key_fold = 1; parseStats.key_fold < 11; parseStats.key_fold++){
                                 // Selección de algoritmo clasificador
                                 parseStats.m_Classifier = algoritmo;
@@ -362,6 +398,9 @@ public class ParseStatsMultiThread {
                                 pw.println(sb.toString());
                                 pw.flush();
                             }
+                            fin_t = System.currentTimeMillis();
+                            diferencia = fin_t - inicio_t;
+                            promedio += diferencia;
                             pw.close();
                         } catch (FileNotFoundException e) {
                             e.printStackTrace();
@@ -369,11 +408,14 @@ public class ParseStatsMultiThread {
                             e.printStackTrace();
                         }
                     }
+                    promedio /= 2;
+                    System.out.println(Thread.currentThread().getName() + "," + String.valueOf(promedio));
                 }
             },
             new Thread("SMO") {
                 public void run(){
                     Classifier algoritmo = new SMO();
+                    long promedio = 0;
                     for (String d : datasets) {
                         ParseStatsMultiThread parseStats = new ParseStatsMultiThread();
                         // Build the data path
@@ -383,6 +425,8 @@ public class ParseStatsMultiThread {
                             // Campos del archivo CSV
                             pw.println(cabecera_csv);
                             // Aleatoriedad de los subconjuntos para correr el 10-CV
+                            Long inicio_t, fin_t, diferencia;
+                            inicio_t = System.currentTimeMillis();
                             for (parseStats.key_fold = 1; parseStats.key_fold < 11; parseStats.key_fold++){
                                 // Selección de algoritmo clasificador
                                 parseStats.m_Classifier = algoritmo;
@@ -396,6 +440,9 @@ public class ParseStatsMultiThread {
                                 pw.println(sb.toString());
                                 pw.flush();
                             }
+                            fin_t = System.currentTimeMillis();
+                            diferencia = fin_t - inicio_t;
+                            promedio += diferencia;
                             pw.close();
                         } catch (FileNotFoundException e) {
                             e.printStackTrace();
@@ -403,11 +450,14 @@ public class ParseStatsMultiThread {
                             e.printStackTrace();
                         }
                     }
+                    promedio /= 2;
+                    System.out.println(Thread.currentThread().getName() + "," + String.valueOf(promedio));
                 }
             },
             new Thread("RandomForest") {
                 public void run(){
                     Classifier algoritmo = new RandomForest();
+                    long promedio = 0;
                     for (String d : datasets) {
                         ParseStatsMultiThread parseStats = new ParseStatsMultiThread();
                         // Build the data path
@@ -417,6 +467,8 @@ public class ParseStatsMultiThread {
                             // Campos del archivo CSV
                             pw.println(cabecera_csv);
                             // Aleatoriedad de los subconjuntos para correr el 10-CV
+                            Long inicio_t, fin_t, diferencia;
+                            inicio_t = System.currentTimeMillis();
                             for (parseStats.key_fold = 1; parseStats.key_fold < 11; parseStats.key_fold++){
                                 // Selección de algoritmo clasificador
                                 parseStats.m_Classifier = algoritmo;
@@ -430,6 +482,9 @@ public class ParseStatsMultiThread {
                                 pw.println(sb.toString());
                                 pw.flush();
                             }
+                            fin_t = System.currentTimeMillis();
+                            diferencia = fin_t - inicio_t;
+                            promedio += diferencia;
                             pw.close();
                         } catch (FileNotFoundException e) {
                             e.printStackTrace();
@@ -437,11 +492,14 @@ public class ParseStatsMultiThread {
                             e.printStackTrace();
                         }
                     }
+                    promedio /= 2;
+                    System.out.println(Thread.currentThread().getName() + "," + String.valueOf(promedio));
                 }
             },
             new Thread("NaiveBayes") {
                 public void run(){
                     Classifier algoritmo = new NaiveBayes();
+                    long promedio = 0;
                     for (String d : datasets) {
                         ParseStatsMultiThread parseStats = new ParseStatsMultiThread();
                         // Build the data path
@@ -451,6 +509,8 @@ public class ParseStatsMultiThread {
                             // Campos del archivo CSV
                             pw.println(cabecera_csv);
                             // Aleatoriedad de los subconjuntos para correr el 10-CV
+                            Long inicio_t, fin_t, diferencia;
+                            inicio_t = System.currentTimeMillis();
                             for (parseStats.key_fold = 1; parseStats.key_fold < 11; parseStats.key_fold++){
                                 // Selección de algoritmo clasificador
                                 parseStats.m_Classifier = algoritmo;
@@ -464,6 +524,9 @@ public class ParseStatsMultiThread {
                                 pw.println(sb.toString());
                                 pw.flush();
                             }
+                            fin_t = System.currentTimeMillis();
+                            diferencia = fin_t - inicio_t;
+                            promedio += diferencia;
                             pw.close();
                         } catch (FileNotFoundException e) {
                             e.printStackTrace();
@@ -471,11 +534,14 @@ public class ParseStatsMultiThread {
                             e.printStackTrace();
                         }
                     }
+                    promedio /= 2;
+                    System.out.println(Thread.currentThread().getName() + "," + String.valueOf(promedio));
                 }
             },
             new Thread("A1DE") {
                 public void run(){
                     Classifier algoritmo = new A1DE();
+                    long promedio = 0;
                     for (String d : datasets) {
                         ParseStatsMultiThread parseStats = new ParseStatsMultiThread();
                         // Build the data path
@@ -485,6 +551,8 @@ public class ParseStatsMultiThread {
                             // Campos del archivo CSV
                             pw.println(cabecera_csv);
                             // Aleatoriedad de los subconjuntos para correr el 10-CV
+                            Long inicio_t, fin_t, diferencia;
+                            inicio_t = System.currentTimeMillis();
                             for (parseStats.key_fold = 1; parseStats.key_fold < 11; parseStats.key_fold++){
                                 // Selección de algoritmo clasificador
                                 parseStats.m_Classifier = algoritmo;
@@ -498,6 +566,9 @@ public class ParseStatsMultiThread {
                                 pw.println(sb.toString());
                                 pw.flush();
                             }
+                            fin_t = System.currentTimeMillis();
+                            diferencia = fin_t - inicio_t;
+                            promedio += diferencia;
                             pw.close();
                         } catch (FileNotFoundException e) {
                             e.printStackTrace();
@@ -505,11 +576,14 @@ public class ParseStatsMultiThread {
                             e.printStackTrace();
                         }
                     }
+                    promedio /= 2;
+                    System.out.println(Thread.currentThread().getName() + "," + String.valueOf(promedio));
                 }
             },
             new Thread("A2DE") {
                 public void run(){
                     Classifier algoritmo = new A2DE();
+                    long promedio = 0;
                     for (String d : datasets) {
                         ParseStatsMultiThread parseStats = new ParseStatsMultiThread();
                         // Build the data path
@@ -519,6 +593,8 @@ public class ParseStatsMultiThread {
                             // Campos del archivo CSV
                             pw.println(cabecera_csv);
                             // Aleatoriedad de los subconjuntos para correr el 10-CV
+                            Long inicio_t, fin_t, diferencia;
+                            inicio_t = System.currentTimeMillis();
                             for (parseStats.key_fold = 1; parseStats.key_fold < 11; parseStats.key_fold++){
                                 // Selección de algoritmo clasificador
                                 parseStats.m_Classifier = algoritmo;
@@ -532,6 +608,9 @@ public class ParseStatsMultiThread {
                                 pw.println(sb.toString());
                                 pw.flush();
                             }
+                            fin_t = System.currentTimeMillis();
+                            diferencia = fin_t - inicio_t;
+                            promedio += diferencia;
                             pw.close();
                         } catch (FileNotFoundException e) {
                             e.printStackTrace();
@@ -539,11 +618,14 @@ public class ParseStatsMultiThread {
                             e.printStackTrace();
                         }
                     }
+                    promedio /= 2;
+                    System.out.println(Thread.currentThread().getName() + "," + String.valueOf(promedio));
                 }
             },
             new Thread("BayesNet") {
                 public void run(){
                     Classifier algoritmo = new BayesNet();
+                    long promedio = 0;
                     for (String d : datasets) {
                         ParseStatsMultiThread parseStats = new ParseStatsMultiThread();
                         // Build the data path
@@ -553,6 +635,8 @@ public class ParseStatsMultiThread {
                             // Campos del archivo CSV
                             pw.println(cabecera_csv);
                             // Aleatoriedad de los subconjuntos para correr el 10-CV
+                            Long inicio_t, fin_t, diferencia;
+                            inicio_t = System.currentTimeMillis();
                             for (parseStats.key_fold = 1; parseStats.key_fold < 11; parseStats.key_fold++){
                                 // Selección de algoritmo clasificador
                                 parseStats.m_Classifier = algoritmo;
@@ -566,6 +650,9 @@ public class ParseStatsMultiThread {
                                 pw.println(sb.toString());
                                 pw.flush();
                             }
+                            fin_t = System.currentTimeMillis();
+                            diferencia = fin_t - inicio_t;
+                            promedio += diferencia;
                             pw.close();
                         } catch (FileNotFoundException e) {
                             e.printStackTrace();
@@ -573,11 +660,14 @@ public class ParseStatsMultiThread {
                             e.printStackTrace();
                         }
                     }
+                    promedio /= 2;
+                    System.out.println(Thread.currentThread().getName() + "," + String.valueOf(promedio));
                 }
             },
             new Thread("RandomTree") {
                 public void run(){
                     Classifier algoritmo = new RandomTree();
+                    long promedio = 0;
                     for (String d : datasets) {
                         ParseStatsMultiThread parseStats = new ParseStatsMultiThread();
                         // Build the data path
@@ -587,6 +677,8 @@ public class ParseStatsMultiThread {
                             // Campos del archivo CSV
                             pw.println(cabecera_csv);
                             // Aleatoriedad de los subconjuntos para correr el 10-CV
+                            Long inicio_t, fin_t, diferencia;
+                            inicio_t = System.currentTimeMillis();
                             for (parseStats.key_fold = 1; parseStats.key_fold < 11; parseStats.key_fold++){
                                 // Selección de algoritmo clasificador
                                 parseStats.m_Classifier = algoritmo;
@@ -600,6 +692,9 @@ public class ParseStatsMultiThread {
                                 pw.println(sb.toString());
                                 pw.flush();
                             }
+                            fin_t = System.currentTimeMillis();
+                            diferencia = fin_t - inicio_t;
+                            promedio += diferencia;
                             pw.close();
                         } catch (FileNotFoundException e) {
                             e.printStackTrace();
@@ -607,11 +702,14 @@ public class ParseStatsMultiThread {
                             e.printStackTrace();
                         }
                     }
+                    promedio /= 2;
+                    System.out.println(Thread.currentThread().getName() + "," + String.valueOf(promedio));
                 }
             },
             new Thread("REPTree") {
                 public void run(){
                     Classifier algoritmo = new REPTree();
+                    long promedio = 0;
                     for (String d : datasets) {
                         ParseStatsMultiThread parseStats = new ParseStatsMultiThread();
                         // Build the data path
@@ -621,6 +719,8 @@ public class ParseStatsMultiThread {
                             // Campos del archivo CSV
                             pw.println(cabecera_csv);
                             // Aleatoriedad de los subconjuntos para correr el 10-CV
+                            Long inicio_t, fin_t, diferencia;
+                            inicio_t = System.currentTimeMillis();
                             for (parseStats.key_fold = 1; parseStats.key_fold < 11; parseStats.key_fold++){
                                 // Selección de algoritmo clasificador
                                 parseStats.m_Classifier = algoritmo;
@@ -634,6 +734,9 @@ public class ParseStatsMultiThread {
                                 pw.println(sb.toString());
                                 pw.flush();
                             }
+                            fin_t = System.currentTimeMillis();
+                            diferencia = fin_t - inicio_t;
+                            promedio += diferencia;
                             pw.close();
                         } catch (FileNotFoundException e) {
                             e.printStackTrace();
@@ -641,11 +744,14 @@ public class ParseStatsMultiThread {
                             e.printStackTrace();
                         }
                     }
+                    promedio /= 2;
+                    System.out.println(Thread.currentThread().getName() + "," + String.valueOf(promedio));
                 }
             },
             new Thread("J48") {
                 public void run(){
                     Classifier algoritmo = new J48();
+                    long promedio = 0;
                     for (String d : datasets) {
                         ParseStatsMultiThread parseStats = new ParseStatsMultiThread();
                         // Build the data path
@@ -655,6 +761,8 @@ public class ParseStatsMultiThread {
                             // Campos del archivo CSV
                             pw.println(cabecera_csv);
                             // Aleatoriedad de los subconjuntos para correr el 10-CV
+                            Long inicio_t, fin_t, diferencia;
+                            inicio_t = System.currentTimeMillis();
                             for (parseStats.key_fold = 1; parseStats.key_fold < 11; parseStats.key_fold++){
                                 // Selección de algoritmo clasificador
                                 parseStats.m_Classifier = algoritmo;
@@ -668,6 +776,9 @@ public class ParseStatsMultiThread {
                                 pw.println(sb.toString());
                                 pw.flush();
                             }
+                            fin_t = System.currentTimeMillis();
+                            diferencia = fin_t - inicio_t;
+                            promedio += diferencia;
                             pw.close();
                         } catch (FileNotFoundException e) {
                             e.printStackTrace();
@@ -675,11 +786,14 @@ public class ParseStatsMultiThread {
                             e.printStackTrace();
                         }
                     }
+                    promedio /= 2;
+                    System.out.println(Thread.currentThread().getName() + "," + String.valueOf(promedio));
                 }
             },
             new Thread("IBk1") {
                 public void run(){
                     Classifier algoritmo = new IBk(1);
+                    long promedio = 0;
                     for (String d : datasets) {
                         ParseStatsMultiThread parseStats = new ParseStatsMultiThread();
                         // Build the data path
@@ -689,6 +803,8 @@ public class ParseStatsMultiThread {
                             // Campos del archivo CSV
                             pw.println(cabecera_csv);
                             // Aleatoriedad de los subconjuntos para correr el 10-CV
+                            Long inicio_t, fin_t, diferencia;
+                            inicio_t = System.currentTimeMillis();
                             for (parseStats.key_fold = 1; parseStats.key_fold < 11; parseStats.key_fold++){
                                 // Selección de algoritmo clasificador
                                 parseStats.m_Classifier = algoritmo;
@@ -702,6 +818,9 @@ public class ParseStatsMultiThread {
                                 pw.println(sb.toString());
                                 pw.flush();
                             }
+                            fin_t = System.currentTimeMillis();
+                            diferencia = fin_t - inicio_t;
+                            promedio += diferencia;
                             pw.close();
                         } catch (FileNotFoundException e) {
                             e.printStackTrace();
@@ -709,11 +828,14 @@ public class ParseStatsMultiThread {
                             e.printStackTrace();
                         }
                     }
+                    promedio /= 2;
+                    System.out.println(Thread.currentThread().getName() + "," + String.valueOf(promedio));
                 }
             },
             new Thread("IBk5") {
                 public void run(){
                     Classifier algoritmo = new IBk(5);
+                    long promedio = 0;
                     for (String d : datasets) {
                         ParseStatsMultiThread parseStats = new ParseStatsMultiThread();
                         // Build the data path
@@ -723,6 +845,8 @@ public class ParseStatsMultiThread {
                             // Campos del archivo CSV
                             pw.println(cabecera_csv);
                             // Aleatoriedad de los subconjuntos para correr el 10-CV
+                            Long inicio_t, fin_t, diferencia;
+                            inicio_t = System.currentTimeMillis();
                             for (parseStats.key_fold = 1; parseStats.key_fold < 11; parseStats.key_fold++){
                                 // Selección de algoritmo clasificador
                                 parseStats.m_Classifier = algoritmo;
@@ -736,6 +860,9 @@ public class ParseStatsMultiThread {
                                 pw.println(sb.toString());
                                 pw.flush();
                             }
+                            fin_t = System.currentTimeMillis();
+                            diferencia = fin_t - inicio_t;
+                            promedio += diferencia;
                             pw.close();
                         } catch (FileNotFoundException e) {
                             e.printStackTrace();
@@ -743,11 +870,14 @@ public class ParseStatsMultiThread {
                             e.printStackTrace();
                         }
                     }
+                    promedio /= 2;
+                    System.out.println(Thread.currentThread().getName() + "," + String.valueOf(promedio));
                 }
             },
             new Thread("IBk10") {
                 public void run(){
                     Classifier algoritmo = new IBk(10);
+                    long promedio = 0;
                     for (String d : datasets) {
                         ParseStatsMultiThread parseStats = new ParseStatsMultiThread();
                         // Build the data path
@@ -757,6 +887,8 @@ public class ParseStatsMultiThread {
                             // Campos del archivo CSV
                             pw.println(cabecera_csv);
                             // Aleatoriedad de los subconjuntos para correr el 10-CV
+                            Long inicio_t, fin_t, diferencia;
+                            inicio_t = System.currentTimeMillis();
                             for (parseStats.key_fold = 1; parseStats.key_fold < 11; parseStats.key_fold++){
                                 // Selección de algoritmo clasificador
                                 parseStats.m_Classifier = algoritmo;
@@ -770,6 +902,9 @@ public class ParseStatsMultiThread {
                                 pw.println(sb.toString());
                                 pw.flush();
                             }
+                            fin_t = System.currentTimeMillis();
+                            diferencia = fin_t - inicio_t;
+                            promedio += diferencia;
                             pw.close();
                         } catch (FileNotFoundException e) {
                             e.printStackTrace();
@@ -777,11 +912,14 @@ public class ParseStatsMultiThread {
                             e.printStackTrace();
                         }
                     }
+                    promedio /= 2;
+                    System.out.println(Thread.currentThread().getName() + "," + String.valueOf(promedio));
                 }
             },
             new Thread("DecisionTable") {
                 public void run(){
                     Classifier algoritmo = new DecisionTable();
+                    long promedio = 0;
                     for (String d : datasets) {
                         ParseStatsMultiThread parseStats = new ParseStatsMultiThread();
                         // Build the data path
@@ -791,6 +929,8 @@ public class ParseStatsMultiThread {
                             // Campos del archivo CSV
                             pw.println(cabecera_csv);
                             // Aleatoriedad de los subconjuntos para correr el 10-CV
+                            Long inicio_t, fin_t, diferencia;
+                            inicio_t = System.currentTimeMillis();
                             for (parseStats.key_fold = 1; parseStats.key_fold < 11; parseStats.key_fold++){
                                 // Selección de algoritmo clasificador
                                 parseStats.m_Classifier = algoritmo;
@@ -804,6 +944,9 @@ public class ParseStatsMultiThread {
                                 pw.println(sb.toString());
                                 pw.flush();
                             }
+                            fin_t = System.currentTimeMillis();
+                            diferencia = fin_t - inicio_t;
+                            promedio += diferencia;
                             pw.close();
                         } catch (FileNotFoundException e) {
                             e.printStackTrace();
@@ -811,6 +954,8 @@ public class ParseStatsMultiThread {
                             e.printStackTrace();
                         }
                     }
+                    promedio /= 2;
+                    System.out.println(Thread.currentThread().getName() + "," + String.valueOf(promedio));
                 }
             }
         };
